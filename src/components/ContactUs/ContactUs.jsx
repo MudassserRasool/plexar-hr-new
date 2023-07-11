@@ -32,7 +32,7 @@ const ContactUs = ({pageData}) => {
                 <div className="contactUsButtonBox">
                   <p className="contactUsButtonText">Contact Us</p>
                 </div>
-                <Link className={`text-decoration-none d-${pageData.length > 0 && pageData[0]?.heroLearnContactUsVisibility}`} to={`${pageData.length > 0 && pageData[0]?.heroLearnContactUs}/4`} onClick={() => window.scrollTo(0, 0)}>
+                <Link className={`text-decoration-none d-${pageData.length > 0 && pageData[0]?.heroLearnContactUsVisibility}`} to={`${pageData.length > 0 && pageData[0]?.learnMoreContactUs}`} onClick={() => window.scrollTo(0, 0)}>
                   <div className="learnButtonButtonBox ms-2">
                     <p className="text-center pt-3 learnButtonCoustomText">
                       Learn More

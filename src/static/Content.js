@@ -1,79 +1,75 @@
-import {
-  AiScheduler,
-  AiPowerAutomationIcon,
-  AiBookingIcon,
-} from "../assets/index";
+
+import { CashControlIcon, MoneyInfoIcon, MoneyMapingIcon } from "../assets/index";
 
 export const defaultData = [
   {
     id: 1,
-    heroHeadingWebHomePageTitel: "Stockpro -",
-    heroHeadingWeb: "Make Inventory Management Smarter with AI Technology",
-    heroHeadingMobilePageTitel: "Monitor,",
-    heroHeadingMobile: "Smarter Inventory Management with AI Technology",
+    heroHeadingWebHomePageTitel: "Ondel -",
+    heroHeadingWeb: "No.1 AI-Powered Accounting Software for Every Business",
+    heroHeadingMobilePageTitel: "General ledger",
+    heroHeadingMobile: "& bank reconciliation, financial reporting & analysis",
     heroParaWeb:
-      "Ready to manage your inventory levels & tracking stock movements in real time. You can create purchase orders, manage supplier information, & generate reports on inventory levels, usage, & costs.",
+      "A comprehensive financial management system to track expenses, manage invoices, & process payments. Generate financial reports & gain insights into your business's financial health.",
     heroParaMobile:
-      "Create purchase orders, manage supplier information, & generate reports on inventory levels, usage, & costs.",
+      "A comprehensive financial management system to track expenses, manage invoices, & process payments. ",
 
-    heroLearnMoreButton: "/learn-more-stock/1",
+    heroLearnMoreButton: "/learn-more-finance-mannage/1",
     heroLearnMoreButtonVisibility: "block",
 
-    // features component----------------------------------------------
-    featuresHeadingSectionOne: "Real-time Inventory Tracking",
-    featuresParaSectionOne:
-      "Plexaar's Inventory Management module helps users track inventory levels in real time, ensuring they never run out of stock. Users can also set alerts for low stock levels & automate reordering processes.",
-    readMoreInventoryFeatures: "/learn-more-stock/2",
-    readMoreInventoryFeaturesVisibility: "block",
-    featuresSectionTwo: [
+    // Automate process----------------------------------------
+    automateProcessHeading: "Automated Invoicing",
+    automateProcessPara:
+      "Plexaar's Accounting & Finance module automates the invoicing process by generating invoices & sending them to customers automatically. Users can also track payment status & send payment reminders to customers.",
+    automateProcessButton: "/learn-more-finance-mannage/2",
+    automateProcessButtonVisibility: "block",
+    automateProcessItems: [
       {
-        heading: "Stock control & replenishment",
-        para: "Keep stock in check & reorder efficiently by simplifying your purchase process.",
+        icon: `${CashControlIcon}`,
+        heading: "The Money Map",
+        para: "General ledger & chart of accounts, Accounts payable & receivable, Tax management & compliance.",
       },
       {
-        heading: "Purchase & Sales management",
-        para: "Streamline your sales process & never miss a beat. Optimize your warehouse organization & location tracking.",
+        icon: `${MoneyInfoIcon}`,
+        heading: "Cash Control",
+        para: "Bank reconciliation & cash management, Budgeting & forecasting, Fixed asset management.",
       },
       {
-        heading: "Barcode scanning & RFID tracking",
-        para: "Scan & track inventory with ease using advanced technology of serial number tracking Inventory forecasting",
+        icon: `${MoneyMapingIcon}`,
+        heading: "Know Your Money",
+        para: "Financial reporting & analysis, Credit control & collections, Billing & invoicing, Multi-currency.",
       },
     ],
-    readMoreMannagementFeatures: "/learn-more-stock",
-    readMoreMannagementFeaturesVisibility: "block",
 
     // contact us component------------------------------------------
-    contactUsHeading: "Batch & Serial Number Tracking",
+    contactUsHeading: "Finance Management",
     contactUsPara:
-      " The best supporting batch & serial number tracking, helping businesses to track products movement & location accurately with lot & batch tracking, inventory costing & valuation, reorder point & safety stock, and much more.",
-    heroLearnContactUs: "/learn-more-stock",
-    heroLearnContactUsVisibility: "block",
-    // smartInventoryReporting---------------------------
-    InventoryReportingHeadingBlueLatter: "Inventory",
-    InventoryReportingHeadingBlackLatter: "Reports",
-    InventoryReportingPara:
-      "Helping generate inventory reports, including stock levels, inventory valuation, & inventory turnover.",
-    InventoryReportingItems: [
+      "Analyze your financial data with powerful analytics tools, including charts, graphs, and other visualizations. Create budgets for your business & track your progress towards your financial goals. Set up alerts when you're getting close to your budget limits.",
+    learnMoreContactUs: "/learn-more-finance-mannage/3",
+    learnMoreContactUsVisibility: "block",
+
+    // features component----------------------------------------------
+    featuresHeadingSectionOne: "Comprehensive Financial Reports",
+    featuresParaSectionOne:
+      "Keep track of your business’s financial health by effectively tracking progress, budgeting and analyzing the daily finance reports to reduce the cost.",
+    readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+    readMoreFinanceFeaturesVisibility: "block",
+    featuresSectionTwo: [
       {
-        icon: `${AiScheduler}`,
-        heading: "Smart Decisions",
-        para: "Helping generate inventory reports, including stock levels, inventory valuation, & inventory turnover.",
+        heading: "Visualize your financial story",
+        para: "Analyze your financial data with powerful analytics tools, including charts, graphs, and other visualizations.",
       },
       {
-        icon: `${AiPowerAutomationIcon}`,
-        heading: "Informed Management",
-        para: "The reports & ABC analysis help users make informed decisions about their inventory management.",
+        heading: "Budget like a boss",
+        para: "Create budgets for your business and track your progress towards your financial goals.",
       },
       {
-        icon: `${AiBookingIcon}`,
-        heading: "Kit Control",
-        para: "Kitting & assembly management, inventory optimization, integration with shipping & fulfillment.",
+        heading: "Don't overspend, get notified",
+        para: "You can also set up alerts to notify you when you're getting close to your budget limits.",
       },
     ],
-    learnMoreInventoryReporting: "/learn-more-stock",
-    learnMoreInventoryReportingVisibility: "block",
+    readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
+    readMoreMannagementFeaturesVisibility: "block",
   },
-
 ];
 
 export const HomePageContent = {
@@ -82,474 +78,611 @@ export const HomePageContent = {
     {
       id: 1,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Track Stock Levels",
-      heroHeadingMobilePageTitel: "Monitor,",
-      heroHeadingMobile: "Track Stock Levels",
+      heroHeadingWeb: "General Ledger Management",
+      heroHeadingMobilePageTitel: "",
+      heroHeadingMobile: "General Ledger Management",
       heroParaWeb:
-        "Monitor and manage inventory quantities effectively. With real-time visibility into stock levels, users can ensure optimal inventory levels, avoid stockouts, and efficiently fulfill customer demands.",
+        "Manage your financial records with Ondel's General Ledger Management system. Stay organized, track transactions, and gain valuable insights into your company's financial health.",
       heroParaMobile:
-        "Ensure optimal inventory levels, avoid stockouts, and efficiently fulfill customer demands",
-
-      heroLearnMoreButton: "/learn-more-stock/6",
+        "Stay organized, track transactions, and gain valuable insights into your company's financial health.",
+  
+      heroLearnMoreButton: "/learn-more-finance-mannage/6",
       heroLearnMoreButtonVisibility: "block",
-
+  
+      // Automate process----------------------------------------
+      automateProcessHeading: "Transaction Tracking",
+      automateProcessPara:
+        "Record and track all financial transactions in one central location, ensuring accuracy and transparency.",
+      automateProcessButton: "/learn-more-finance-mannage/7",
+      automateProcessButtonVisibility: "block",
+      automateProcessItems: [
+        {
+          icon: `${CashControlIcon}`,
+          heading: "Journal Entries",
+          para: "Easily create and manage journal entries to document various financial activities and maintain an accurate record.",
+        },
+        {
+          icon: `${MoneyInfoIcon}`,
+          heading: "Account Balances",
+          para: "Keep track of account balances in real-time, ensuring a clear overview of your financial standing.",
+        },
+        {
+          icon: `${MoneyMapingIcon}`,
+          heading: "Chart of Accounts",
+          para: "Customize and organize your chart of accounts to align with your specific business needs and reporting requirements.",
+        },
+      ],
+  
+      // contact us component------------------------------------------
+      contactUsHeading: "Account Reconciliation",
+      contactUsPara:
+        "Improve the process of reconciling accounts, ensuring accuracy and identifying discrepancies.",
+      learnMoreContactUs: "/learn-more-finance-mannage/8",
+      learnMoreContactUsVisibility: "block",
+  
       // features component----------------------------------------------
-      featuresHeadingSectionOne: "Stock Movement Tracking",
+      featuresHeadingSectionOne: "Financial Reporting",
       featuresParaSectionOne:
-        "Track the movement of stock within the warehouse, including incoming shipments, transfers between locations, & outgoing orders.",
-      readMoreInventoryFeatures: "/learn-more-stock/7",
-      readMoreInventoryFeaturesVisibility: "block",
+        "Generate comprehensive financial reports, including balance sheets, income statements, and cash flow statements, to analyze your company's financial performance.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/9",
+      readMoreFinanceFeaturesVisibility: "block",
       featuresSectionTwo: [
         {
-          heading: "Stock History and Audit Trail",
-          para: "Maintain a detailed history of stock changes and movements, providing a comprehensive audit trail for better traceability.",
+          heading: "Audit Trail",
+          para: "Maintain a detailed audit trail of all financial transactions, providing transparency and compliance with regulatory standards.",
         },
         {
-          heading: "Serial Number Tracking",
-          para: "Assign and track unique serial numbers to individual products, facilitating product identification, & warranty management.",
+          heading: "Intercompany Transactions",
+          para: "Manage transactions between multiple entities or subsidiaries within your organization, ensuring accurate intercompany accounting.",
         },
         {
-          heading: "Stock Reconciliation",
-          para: "Conduct regular stock reconciliation to compare physical stock counts with recorded quantities, identifying and addressing discrepancies to maintain accurate inventory records.",
+          heading: "Closing & Year-End Processes",
+          para: "Simplify the closing and year-end processes with automated workflows, reducing manual effort and improving efficiency.",
         },
       ],
-      readMoreMannagementFeatures: "/read-more-mannagment-features",
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
       readMoreMannagementFeaturesVisibility: "none",
-
-      // contact us component------------------------------------------
-      contactUsHeading: "Stock Forecasting",
-      contactUsPara:
-        " Utilize historical data and predictive analytics to forecast future stock requirements, enabling proactive planning, optimizing inventory levels, & avoiding overstocking.",
-      heroLearnContactUs: "/learn-more-contact-us",
-      heroLearnContactUsVisibility: "none",
-
-      // smartInventoryReporting---------------------------
-      InventoryReportingHeadingBlueLatter: "Stock Status and",
-      InventoryReportingHeadingBlackLatter: "Availability",
-      InventoryReportingPara:
-        "Instantly check the availability and status of each item in stock, providing accurate information to sales teams and ensuring accurate order fulfillment.",
-      InventoryReportingItems: [
-        {
-          icon: `${AiScheduler}`,
-          heading: "POS Integration",
-          para: "Integrate stock level tracking with other systems, such as point-of-sale (POS) or online stores, for seamless inventory management and accurate stock updates across all channels.",
-        },
-        {
-          icon: `${AiPowerAutomationIcon}`,
-          heading: "Informed Management",
-          para: "The reports & ABC analysis help users make informed decisions about their inventory management.",
-        },
-       
-      ],
-      learnMoreInventoryReporting: "/learn-more-inventory-reporting",
-      learnMoreInventoryReportingVisibility: "none",
     },
     {
       id: 2,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Import or Export Inventory",
+      heroHeadingWeb: "Integration with Other Modules",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Import or Export Inventory",
+      heroHeadingMobile: "Integration with Other Modules",
       heroParaWeb:
-        "Efficiently import or export inventory data in bulk, saving time and reducing manual data entry. With this feature, users can seamlessly manage inventory updates and maintain accurate records.",
+        "Integrate General Ledger Management with other accounting modules, such as accounts payable and accounts receivable, for a comprehensive financial management solution.",
       heroParaMobile:
-        "Import or export inventory data in bulk, manage inventory updates and maintain accurate records.",
-
-      heroLearnMoreButton: "/learn-more-stock",
+        "Integrate with other accounting modules, such as accounts payable and accounts receivable.",
+  
+      heroLearnMoreButton: "/learn-more-finance-mannage/1",
       heroLearnMoreButtonVisibility: "none",
+  
+      // Automate process----------------------------------------
+      automateProcessHeading: "Accounts Receivable & Payable",
+      automateProcessPara:
+        "Manage your business's cash flow effortlessly. Spruce up your invoicing, track payments, and stay on top of your financial transactions.",
+      automateProcessButton: "/learn-more-finance-mannage/2",
+      automateProcessButtonVisibility: "none",
+      automateProcessItems: [
+        {
+          icon: `${CashControlIcon}`,
+          heading: "Invoicing Automation",
+          para: "Create and send professional invoices to your customers with ease, reducing manual effort and improving efficiency.",
+        },
+        {
+          icon: `${MoneyInfoIcon}`,
+          heading: "Aging Reports",
+          para: "Gain insights into the status of your receivables and payables with aging reports, helping you identify outstanding balances and take necessary actions.",
+        },
+        {
+          icon: `${MoneyMapingIcon}`,
+          heading: "Customer Statements",
+          para: "Generate detailed statements for your customers, providing them with a clear overview of their outstanding balances and payment history.",
+        },
+      ],
+  
+      // contact us component------------------------------------------
+      contactUsHeading: "Payment Reminders",
+      contactUsPara:
+        "Automate payment reminders to customers, reducing late payments and improving collection rates.",
+      learnMoreContactUs: "/learn-more-finance-mannage/3",
+      learnMoreContactUsVisibility: "none",
+  
       // features component----------------------------------------------
-      featuresHeadingSectionOne: "Data Mapping",
+      featuresHeadingSectionOne: "Vendor Management",
       featuresParaSectionOne:
-        "Map imported or exported data fields to match the software's inventory structure, ensuring accurate data transfer and compatibility.",
-      readMoreInventoryFeatures: "/read-more-inventory-features",
-      readMoreInventoryFeaturesVisibility: "none",
+        "Reform your payables by managing vendor information, tracking payment due dates, and ensuring timely payments.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+      readMoreFinanceFeaturesVisibility: "none",
       featuresSectionTwo: [
         {
-          heading: "Data Validation",
-          para: "Validate imported or exported data to identify and rectify errors or inconsistencies, maintaining data integrity and accuracy.",
+          heading: "Purchase Orders",
+          para: "Create and manage purchase orders to track expenses, improve accuracy, and streamline the procurement process.",
         },
         {
-          heading: "Bulk Update",
-          para: "Update inventory quantities, prices, or other attributes in bulk through the import or export functionality, simplifying mass updates and reducing manual effort.",
+          heading: "Expense Tracking",
+          para: "Record and track business expenses, ensuring accurate financial reporting and expense management.",
         },
         {
-          heading: "CSV/Excel Support",
-          para: "Import or export inventory data in common file formats like CSV or Excel, providing flexibility and compatibility with various software applications.",
+          heading: "Payment Integration",
+          para: "Integrate with payment gateways to facilitate online payments from customers, offering convenience and improving cash flow.",
         },
       ],
-      readMoreMannagementFeatures: "/read-more-mannagment-features",
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
       readMoreMannagementFeaturesVisibility: "none",
-
-      // contact us component------------------------------------------
-      contactUsHeading: "Automated Import/Export",
-      contactUsPara:
-        "Schedule recurring imports or exports to automate inventory data synchronization, reducing manual intervention and ensuring up-to-date information.",
-      heroLearnContactUs: "/learn-more-contact-us",
-      heroLearnContactUsVisibility: "none",
-
-      // smartInventoryReporting---------------------------
-      InventoryReportingHeadingBlueLatter: "Mapping ",
-      InventoryReportingHeadingBlackLatter: "Templates",
-      InventoryReportingPara:
-        "Create and save mapping templates to streamline future import or export processes, saving time and ensuring consistency in data transfer.",
-      InventoryReportingItems: [
-        {
-          icon: `${AiScheduler}`,
-          heading: "Data Transformation",
-          para: "Perform data transformations or calculations during the import or export process, enabling data manipulation to fit specific requirements or formats.",
-        },
-        {
-          icon: `${AiPowerAutomationIcon}`,
-          heading: "Customizable Data Filters",
-          para: "Apply filters during the import or export process to selectively include or exclude specific inventory data based on predefined criteria, refining data management.",
-        },
-        {
-          icon: `${AiBookingIcon}`,
-          heading: "Data Sync",
-          para: "Sync inventory data in real-time between Stockpro and external systems, ensuring accurate and up-to-date inventory information across platforms.",
-        },
-      ],
-      learnMoreInventoryReporting: "/learn-more-inventory-reporting",
-      learnMoreInventoryReportingVisibility: "none",
     },
     {
       id: 3,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "View Stock on Hand",
+      heroHeadingWeb: "Cash Flow Analysis",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "View Stock on Hand",
+      heroHeadingMobile: "Cash Flow Analysis",
       heroParaWeb:
-        "Get real-time visibility into the current stock levels of the inventory items. By providing accurate and up-to-date information, this feature enables efficient inventory management & accurate order fulfillment.",
+        "Analyze your receivables and payables data to gain insights into your cash flow patterns and make informed financial decisions.",
       heroParaMobile:
-        "Get real-time visibility into the current stock levels of the inventory items with up-to-date information.",
-
-      heroLearnMoreButton: "/learn-more-stock",
+        "Analyze your receivables and payables data to gain insights into your cash flow patterns.",
+  
+      heroLearnMoreButton: "/learn-more-finance-mannage/1",
       heroLearnMoreButtonVisibility: "none",
-
+  
+      // Automate process----------------------------------------
+      automateProcessHeading: "Bank Reconciliation",
+      automateProcessPara:
+        "Reconcile your financial records with Ondel's Bank Reconciliation system effortlessly. Keep your accounts in sync, identify discrepancies, and ensure accurate financial reporting.",
+      automateProcessButton: "/learn-more-finance-mannage/2",
+      automateProcessButtonVisibility: "none",
+      automateProcessItems: [
+        {
+          icon: `${CashControlIcon}`,
+          heading: "Automated Matching",
+          para: "Automatically match your bank transactions with your accounting records, saving time and ensuring accuracy.",
+        },
+        {
+          icon: `${MoneyInfoIcon}`,
+          heading: "Statement Import",
+          para: "Easily import bank statements into the software, streamlining the reconciliation process and reducing manual data entry.",
+        },
+        {
+          icon: `${MoneyMapingIcon}`,
+          heading: "Discrepancy Detection",
+          para: "Identify and resolve discrepancies between your bank statements and accounting records, ensuring accurate financial reporting.",
+        },
+      ],
+  
+      // contact us component------------------------------------------
+      contactUsHeading: "Clearing and Adjustments",
+      contactUsPara:
+        "Efficiently clear and adjust transactions, ensuring your books reflect the correct balances and improving reconciliation accuracy.",
+      learnMoreContactUs: "/learn-more-finance-mannage/3",
+      learnMoreContactUsVisibility: "none",
+  
       // features component----------------------------------------------
-      featuresHeadingSectionOne: "Stock Quantity Display",
+      featuresHeadingSectionOne: "Bank Statement Reconciliation",
       featuresParaSectionOne:
-        "Display the available quantity of each inventory item, ensuring users have instant access to the exact stock levels at any given time.",
-      readMoreInventoryFeatures: "/read-more-inventory-features",
-      readMoreInventoryFeaturesVisibility: "none",
+        "Reconcile your bank statements with ease, ensuring that your records align with your actual bank balances.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+      readMoreFinanceFeaturesVisibility: "none",
       featuresSectionTwo: [
         {
-          heading: "Location-Based Stock View",
-          para: "View stock on hand across different warehouse locations or storage areas, facilitating efficient inventory tracking.",
+          heading: "Error Resolution",
+          para: "Quickly identify and rectify errors or missing transactions, maintaining accurate financial records.",
         },
         {
-          heading: "Stock Status Indicators",
-          para: "Use visual indicators to represent stock availability, such as low stock or out-of-stock alerts, enabling quick identification of items.",
+          heading: "Reconciliation Reports",
+          para: "Generate comprehensive reports that provide a clear overview of the reconciliation process, helping you track progress and ensure completeness.",
         },
         {
-          heading: "Product-Specific Details",
-          para: "Provides detailed information about each item, including SKU, description, pricing, and other attributes for accurate stock assessment.",
+          heading: "Multiple Account Support",
+          para: "Reconcile multiple bank accounts simultaneously, simplifying the reconciliation process for businesses with complex financial structures.",
         },
       ],
-      readMoreMannagementFeatures: "/read-more-mannagment-features",
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
       readMoreMannagementFeaturesVisibility: "none",
-
-      // contact us component------------------------------------------
-      contactUsHeading: "Stock History",
-      contactUsPara:
-        "Access the history of stock movements, including incoming shipments, outgoing orders, and adjustments, providing a historical record of stock changes for reference and analysis.",
-      heroLearnContactUs: "learn-more-contact-us",
-
-      // smartInventoryReporting---------------------------
-      InventoryReportingHeadingBlueLatter: "Stock Allocation ",
-      InventoryReportingHeadingBlackLatter: "Tracking",
-      InventoryReportingPara:
-        "Track allocated stock for specific orders, ensuring that stock quantities are reserved and accounted for, avoiding overselling and maintaining accurate stock. ",
-      InventoryReportingItems: [
-        {
-          icon: `${AiScheduler}`,
-          heading: "Barcode Scanning & Labeling",
-          para: "By leveraging barcode technology, businesses can streamline data entry, improve accuracy, and expedite inventory operations.",
-        },
-        {
-          icon: `${AiPowerAutomationIcon}`,
-          heading: "Quick Product Identification",
-          para: "Scan barcode labels to identify and retrieve product information instantly, eliminating manual search & reducing errors.",
-        },
-        {
-          icon: `${AiBookingIcon}`,
-          heading: "Barcode Tracking",
-          para: "Scan barcodes to track stock movements, including receiving, picking, packing, and shipping, ensuring accurate inventory records.",
-        },
-      ],
-      learnMoreInventoryReporting: "/learn-more-inventory-reporting",
-      learnMoreInventoryReportingVisibility: "none",
     },
     {
       id: 4,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Barcode Generator",
+      heroHeadingWeb: "Integration with Bank Feeds",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Barcode Generator",
+      heroHeadingMobile: "Integration with Bank Feeds",
       heroParaWeb:
-        "Generate barcode labels in bulk for multiple products, streamlining the labeling process and saving time in manually creating labels one by one.",
+        "Optimally connect with bank feeds to automatically import transactions, improving efficiency and accuracy in the reconciliation process.",
       heroParaMobile:
-        "Generate barcode labels in bulk for multiple products & save time in manually creating labels.",
-
-      heroLearnMoreButton: "/learn-more-stock",
+        "Connect with bank feeds to import transactions, improving accuracy in the reconciliation process.",
+  
+      heroLearnMoreButton: "/learn-more-finance-mannage/1",
       heroLearnMoreButtonVisibility: "none",
+  
+      // Automate process----------------------------------------
+      automateProcessHeading: "Cash Flow Management",
+      automateProcessPara:
+        "Take control of your business's financial health with Cash Flow Management. Monitor, analyze, and optimize your cash flow for improved financial stability.",
+      automateProcessButton: "/learn-more-finance-mannage/2",
+      automateProcessButtonVisibility: "none",
+      automateProcessItems: [
+        {
+          icon: `${CashControlIcon}`,
+          heading: "Cash Flow Tracking",
+          para: "Gain real-time visibility into your cash inflows and outflows, helping you understand and manage your business's liquidity.",
+        },
+        {
+          icon: `${MoneyInfoIcon}`,
+          heading: "Receivables and Payables Management",
+          para: "Effectively manage your receivables and payables to optimize cash flow, minimize delays, and improve collections.",
+        },
+        {
+          icon: `${MoneyMapingIcon}`,
+          heading: "Expense Monitoring",
+          para: "Track and analyze your business expenses to identify areas where cost savings can be made and optimize cash flow.",
+        },
+      ],
+  
+      // contact us component------------------------------------------
+      contactUsHeading: "Cash Flow Projections",
+      contactUsPara:
+        "Generate detailed cash flow projections to assess future cash availability and make informed financial decisions.",
+      learnMoreContactUs: "/learn-more-finance-mannage/3",
+      learnMoreContactUsVisibility: "none",
+  
       // features component----------------------------------------------
-      featuresHeadingSectionOne: "Customizable Label Formats",
+      featuresHeadingSectionOne: "Cash Flow Analysis",
       featuresParaSectionOne:
-        "Create custom label formats with specific information, such as product name, SKU, price, and other attributes, tailoring labels to meet unique business requirements.",
-      readMoreInventoryFeatures: "/read-more-inventory-features",
-      readMoreInventoryFeaturesVisibility: "none",
+        "Analyze your cash flow patterns, identify trends, and pinpoint areas for improvement or potential risks.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+      readMoreFinanceFeaturesVisibility: "none",
       featuresSectionTwo: [
         {
-          heading: "Barcode Compatibility",
-          para: "Support a wide range of barcode formats, including UPC, EAN, Code 39, Code 128, and more, ensuring compatibility with various industry standards.",
+          heading: "Working Capital Optimization",
+          para: "Optimize your working capital by efficiently managing inventory levels, accounts receivable, and accounts payable.",
         },
         {
-          heading: "Mobile Barcode Scanning",
-          para: "Utilize mobile devices equipped with barcode scanning capabilities to scan labels, enabling flexibility and mobility in inventory management.",
+          heading: "Cash Flow Reporting",
+          para: "Generate comprehensive cash flow reports that provide insights into your cash position and help in financial analysis.",
         },
         {
-          heading: "Add Items to Invoices",
-          para: "You can easily select and add the desired products to invoices, ensuring accurate & efficient invoicing for seamless order fulfillment.",
+          heading: "Integration with Financial Accounts",
+          para: "Coherently integrate with your bank accounts and financial institutions for modernized cash flow management.",
         },
       ],
-      readMoreMannagementFeatures: "/read-more-mannagment-features",
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
       readMoreMannagementFeaturesVisibility: "none",
-
-      // contact us component------------------------------------------
-      contactUsHeading: "Product Search and Selection",
-      contactUsPara:
-        "Quickly search and select products from the inventory database, enabling users to easily locate and add the desired items to invoices.",
-      heroLearnContactUs: "/learn-more-contact-us",
-      heroLearnContactUsVisibility: "none",
-
-      // smartInventoryReporting---------------------------
-      InventoryReportingHeadingBlueLatter: "Quantity and ",
-      InventoryReportingHeadingBlackLatter: "Pricing Configuration",
-      InventoryReportingPara:
-        "Set the quantity and pricing for each item within the invoice, allowing for flexible customization based on pricing agreements.",
-      InventoryReportingItems: [
-        {
-          icon: `${AiScheduler}`,
-          heading: "Multiple Unit of Measure",
-          para: "Support multiple units of measure for products, facilitating the various units (e.g., pieces, boxes, kilograms) on the same invoice.",
-        },
-        {
-          icon: `${AiPowerAutomationIcon}`,
-          heading: "Discounts and Promotions",
-          para: "Apply discounts, promotions, or special pricing arrangements to individual items or the overall invoice.",
-        },
-        {
-          icon: `${AiBookingIcon}`,
-          heading: "Tax Calculation",
-          para: "Automatically calculate taxes based on predefined tax rules and rates, ensuring accurate tax amounts are included in the invoice total.",
-        },
-      ],
-      learnMoreInventoryReporting: "/learn-more-inventory-reporting",
-      learnMoreInventoryReportingVisibility: "none",
     },
     {
       id: 5,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Item Descriptions & Notes",
+      heroHeadingWeb: "Tax Management",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Item Descriptions & Notes",
+      heroHeadingMobile: "Tax Management",
       heroParaWeb:
-        "Add item descriptions or notes to provide additional information or instructions to customers, enhancing clarity and communication within the invoice.",
+        "Make your tax processes smooth and stay compliant with Ondel's Tax Management system. Readily manage taxes, reduce errors, and update your tax filing.",
       heroParaMobile:
-        "Add item descriptions or notes to provide additional information or instructions to customers.",
-
-      heroLearnMoreButton: "/learn-more-stock",
+        "Make your tax processes smooth and stay compliant with Ondel's Tax Management system. ",
+  
+      heroLearnMoreButton: "/learn-more-finance-mannage/1",
       heroLearnMoreButtonVisibility: "none",
-
+  
+      // Automate process----------------------------------------
+      automateProcessHeading: "Tax Calculation & Tracking",
+      automateProcessPara:
+        "Automate tax calculations and track tax liabilities accurately, eliminating manual errors and saving time.",
+      automateProcessButton: "/learn-more-finance-mannage/2",
+      automateProcessButtonVisibility: "none",
+      automateProcessItems: [
+        {
+          icon: `${CashControlIcon}`,
+          heading: "Tax Filing Assistance",
+          para: "Receive guidance and support in preparing and filing tax returns, ensuring compliance with tax regulations and deadlines.",
+        },
+        {
+          icon: `${MoneyInfoIcon}`,
+          heading: "Tax Deductions and Credits",
+          para: `Organize and store tax-related documents securely, making tax audits and inquiries hassle-free.
+          Multi-Jurisdiction Support: Handle taxes for different jurisdictions and regions, ensuring compliance with specific tax laws and regulations.`,
+        },
+        {
+          icon: `${MoneyMapingIcon}`,
+          heading: "Tax Remittance Tracking",
+          para: "Track tax payments and remittances, avoiding penalties and late fees for timely and accurate tax submissions.",
+        },
+      ],
+  
+      // contact us component------------------------------------------
+      contactUsHeading: "Tax Reporting and Analytics",
+      contactUsPara:
+        "Generate comprehensive tax reports and gain insights into your tax obligations, aiding in financial planning and analysis.",
+      learnMoreContactUs: "/learn-more-finance-mannage/3",
+      learnMoreContactUsVisibility: "none",
+  
       // features component----------------------------------------------
-      featuresHeadingSectionOne: "Reorder Point Calculation",
+      featuresHeadingSectionOne: "Compliance Monitoring",
       featuresParaSectionOne:
-        "Determine the optimal stock level at which to reorder items, ensuring that inventory is replenished in a timely manner to avoid stockouts.",
-      readMoreInventoryFeatures: "/read-more-inventory-features",
-      readMoreInventoryFeaturesVisibility: "none",
+        "Stay updated with tax law changes and regulations, ensuring ongoing compliance and minimizing the risk of penalties.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+      readMoreFinanceFeaturesVisibility: "none",
       featuresSectionTwo: [
         {
-          heading: "Lead Time Consideration",
-          para: "Account for lead time, in the calculation to ensure that new stock arrives before existing stock runs out.",
+          heading: "Integration with Tax Software",
+          para: "Comprehensively integrate with external tax software for well-defined data transfer and enhanced tax management capabilities.",
         },
         {
-          heading: "Sales Velocity Analysis",
-          para: "Analyze historical sales data to determine the average rate, allowing for accurate reorder point based on demand patterns.",
-        },
-        {
-          heading: "Safety Stock Adjustment",
-          para: "Factor in safety stock, an additional quantity of stock held as a buffer, to account for unexpected demand fluctuations, delays, or supply chain disruptions.",
+          heading: "Audit Support",
+          para: "Facilitate tax audits by maintaining organized records, providing necessary documentation, and ensuring accuracy in tax filings.",
         },
       ],
-      readMoreMannagementFeatures: "/read-more-mannagment-features",
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
       readMoreMannagementFeaturesVisibility: "none",
-
-      // contact us component------------------------------------------
-      contactUsHeading: "Demand Forecasting Integration",
-      contactUsPara:
-        "Integrate with demand forecasting tools or algorithms to predict future demand trends and incorporate them into the reorder point calculation.",
-      heroLearnContactUs: "/learn-more-contact-us",
-      heroLearnContactUsVisibility: "none",
-
-      // smartInventoryReporting---------------------------
-      InventoryReportingHeadingBlueLatter: "Order Quantities",
-      InventoryReportingHeadingBlackLatter: "Optimization",
-      InventoryReportingPara:
-        "Optimize order quantities by considering factors such as supplier constraints, batch sizes, and economic order quantities (EOQ) to minimize costs.",
-      InventoryReportingItems: [
-        {
-          icon: `${AiScheduler}`,
-          heading: "Automatic Reorder Alerts",
-          para: "Set up automatic notifications or alerts to trigger when inventory levels reach or fall below the calculated reorder point.",
-        },
-        {
-          icon: `${AiPowerAutomationIcon}`,
-          heading: "Connect Ecommerce Platforms",
-          para: "Integrate inventory management system with various ecommerce platforms, enabling seamless synchronization of product information & stock levels.",
-        },
-        // {
-        //   icon: `${AiBookingIcon}`,
-        //   heading: "Kit Control",
-        //   para: "Kitting & assembly management, inventory optimization, integration with shipping & fulfillment.",
-        // },
-      ],
-      learnMoreInventoryReporting: "/learn-more-inventory-reporting",
-      learnMoreInventoryReportingVisibility: "none",
     },
+
+    // sub pages of the 1st sub page (General Ledger Management)------------------------------------------------------------------------------
     {
       id: 6,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Multi-channel Inventory Sync",
+      heroHeadingWeb: "Payroll Processing",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Multi-channel Inventory Sync",
+      heroHeadingMobile: "Payroll Processing",
       heroParaWeb:
-        "Ensure accurate and real-time inventory synchronization between the inventory management system and multiple ecommerce platforms, preventing overselling and optimizing stock availability.",
+        "Manage your employees' salaries and ensure accurate and timely payroll with Payroll Processing. Upgrade your payroll processes and eliminate manual calculations.",
       heroParaMobile:
-        "Ensure accurate and real-time inventory synchronization with multiple ecommerce platforms.",
+        "Manage your employees' salaries and ensure accurate and timely payroll with Payroll Processing. ",
   
-      heroLearnMoreButton: "/learn-more-stock",
+      heroLearnMoreButton: "/learn-more-finance-mannage/1",
       heroLearnMoreButtonVisibility: "none",
   
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Product Listing Management",
-      featuresParaSectionOne:
-        "Manage product listings directly from the inventory management software, enabling centralized control over product information, pricing, descriptions, and images across different ecommerce platforms.",
-      readMoreInventoryFeatures: "/read-more-inventory-features",
-      readMoreInventoryFeaturesVisibility: "none",
-      featuresSectionTwo: [
+      // Automate process----------------------------------------
+      automateProcessHeading: "Automated Payroll Calculations",
+      automateProcessPara:
+        "Automate payroll calculations based on employee hours, rates, and deductions, reducing errors and saving time.",
+      automateProcessButton: "/learn-more-finance-mannage/2",
+      automateProcessButtonVisibility: "none",
+      automateProcessItems: [
         {
-          heading: "Order Sync and Fulfillment",
-          para: "Automatically sync orders from ecommerce platforms into the inventory system, enabling efficient order processing.",
+          icon: `${CashControlIcon}`,
+          heading: "Direct Deposit",
+          para: "Facilitate direct deposit payments to employees' bank accounts, simplifying the payroll distribution process.",
         },
         {
-          heading: "Stock Level Updates",
-          para: "Continuously update stock levels based on actual inventory availability, maintaining accurate product listings.",
+          icon: `${MoneyInfoIcon}`,
+          heading: "Payroll Scheduling",
+          para: "Set up recurring payroll schedules to ensure timely payment to employees, improving employee satisfaction.",
         },
         {
-          heading: "Pricing and Promotions Sync",
-          para: "Sync pricing changes, discounts, or promotions, ensuring consistent pricing and promotional strategies for better customer experience.",
+          icon: `${MoneyMapingIcon}`,
+          heading: "Deductions and Benefits Management",
+          para: "Manage employee deductions, benefits, and allowances, accurately reflecting them in payroll calculations.",
         },
       ],
-      readMoreMannagementFeatures: "/read-more-mannagment-features",
-      readMoreMannagementFeaturesVisibility: "none",
   
       // contact us component------------------------------------------
-      contactUsHeading: "Channel-specific Rules and Settings",
+      contactUsHeading: "PTO & Leave Tracking",
       contactUsPara:
-        "Configure channel-specific rules, such as shipping methods, tax settings, or currency conversions, to cater to the unique requirements of each ecommerce platform, enhancing operational flexibility and customization.",
-      heroLearnContactUs: "/learn-more-contact-us",
-      heroLearnContactUsVisibility: "none",
+        "Track employee paid time off (PTO), leaves, and absences for accurate payroll calculation and leave management.",
+      learnMoreContactUs: "/learn-more-finance-mannage/3",
+      learnMoreContactUsVisibility: "none",
   
-      // smartInventoryReporting---------------------------
-      InventoryReportingHeadingBlueLatter: "Supplier & Warehouse ",
-      InventoryReportingHeadingBlackLatter: "Management",
-      InventoryReportingPara:
-        "Get efficient management of suppliers and warehouses, enabling businesses to streamline procurement processes, maintain strong supplier relationships, and optimize inventory storage and organization.",
-      InventoryReportingItems: [
+      // features component----------------------------------------------
+      featuresHeadingSectionOne: "Payroll Reporting",
+      featuresParaSectionOne:
+        "Generate comprehensive payroll reports for record-keeping, auditing, and financial analysis purposes.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+      readMoreFinanceFeaturesVisibility: "none",
+      featuresSectionTwo: [
         {
-          icon: `${AiScheduler}`,
-          heading: "Supplier Database",
-          para: "Maintain a centralized database of suppliers, including contact information, pricing agreements, lead times, and performance metrics.",
+          heading: "Tax Forms Preparation",
+          para: "Prepare and generate necessary tax forms, such as W-2s and 1099s, ensuring compliance with tax reporting requirements.",
         },
         {
-          icon: `${AiPowerAutomationIcon}`,
-          heading: "Purchase Order Management",
-          para: "Create, track, and manage purchase orders, efficiently place orders, receive goods, & maintain accurate records of transactions.",
+          heading: "Payroll Compliance",
+          para: "Stay updated with payroll regulations and laws, ensuring compliance with labor and wage regulations.",
         },
         {
-          icon: `${AiBookingIcon}`,
-          heading: "Supplier Performance Tracking",
-          para: "Monitor & evaluate supplier performance based on factors such as delivery timeliness, product quality, & responsiveness.",
+          heading: "Integration with Time & Attendance Systems",
+          para: "Systematically integrate with time and attendance systems to streamline payroll calculations based on employee attendance records.",
         },
       ],
-      learnMoreInventoryReporting: "/learn-more-inventory-reporting",
-      learnMoreInventoryReportingVisibility: "none",
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
+      readMoreMannagementFeaturesVisibility: "none",
     },
     {
       id: 7,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Warehouse Organization",
+      heroHeadingWeb: "Compliance & Regulatory Reporting",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Warehouse Organization",
+      heroHeadingMobile: "Compliance & Regulatory Reporting",
       heroParaWeb:
-        "Organize and categorize inventory within warehouses using intuitive labeling systems, bin locations, or barcodes, enhancing inventory visibility, accuracy, and efficient picking and packing processes.",
+        "Stay compliant and make more efficient the reporting processes. Get the details of compliance, mitigate risks, and ensure accurate regulatory reporting.",
       heroParaMobile:
-        "Categorize inventory within warehouses using intuitive labeling systems, bin locations, or barcodes",
+        "Get the details of compliance, mitigate risks, and ensure accurate regulatory reporting.",
   
-      heroLearnMoreButton: "/learn-more-stock",
+      heroLearnMoreButton: "/learn-more-finance-mannage/1",
       heroLearnMoreButtonVisibility: "none",
   
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Receiving and Inspection",
-      featuresParaSectionOne:
-        "Streamline the receiving and inspection process by capturing key information such as quantities received, quality checks, and discrepancies, ensuring accurate inventory updates and prompt resolution of issues with suppliers.",
-      readMoreInventoryFeatures: "/read-more-inventory-features",
-      readMoreInventoryFeaturesVisibility: "none",
-      featuresSectionTwo: [
+      // Automate process----------------------------------------
+      automateProcessHeading: "Regulatory Reporting Templates",
+      automateProcessPara:
+        "Access pre-built templates for various regulatory reports, ensuring adherence to reporting requirements.",
+      automateProcessButton: "/learn-more-finance-mannage/2",
+      automateProcessButtonVisibility: "none",
+      automateProcessItems: [
         {
-          heading: "Inventory Allocation",
-          para: "Allocate inventory to specific warehouses or storage areas based on demand patterns or geographical considerations.",
+          icon: `${CashControlIcon}`,
+          heading: "Data Validation and Accuracy",
+          para: "Validate data for accuracy and completeness, reducing errors in regulatory reporting.",
         },
         {
-          heading: "Dead Stock Identification",
-          para: "Allowing for proactive management to minimize holding costs, optimize space utilization, and improve overall inventory turnover.",
+          icon: `${MoneyInfoIcon}`,
+          heading: "Compliance Monitoring and Alerts",
+          para: "Monitor compliance with regulatory requirements and receive alerts for any potential non-compliance issues.",
         },
         {
-          heading: "Stagnant Stock Reporting",
-          para: "Generate reports that highlight inventory items with low sales or no activity within a specified time period, providing insights into stagnant stock items.",
+          icon: `${MoneyMapingIcon}`,
+          heading: "Regulatory Filings and Submissions",
+          para: `Prepare and submit regulatory reports and filings in a timely and accurate manner.
+          Data Integration and Consolidation: Integrate data from various sources and consolidate information for seamless regulatory reporting.
+          `,
         },
       ],
-      readMoreMannagementFeatures: "/read-more-mannagment-features",
-      readMoreMannagementFeaturesVisibility: "none",
   
       // contact us component------------------------------------------
-      contactUsHeading: "Aging Analysis",
+      contactUsHeading: "Record Keeping and Retention",
       contactUsPara:
-        "Analyze the age of inventory to identify items that have been in stock for an extended period, helping businesses focus on older items that are more likely to become dead stock.",
-      heroLearnContactUs: "/learn-more-contact-us",
-      heroLearnContactUsVisibility: "none",
+        "Maintain organized records and ensure proper retention of regulatory documentation for compliance purposes.",
+      learnMoreContactUs: "/learn-more-finance-mannage/3",
+      learnMoreContactUsVisibility: "none",
   
-      // smartInventoryReporting---------------------------
-      InventoryReportingHeadingBlueLatter: "Inventory Value ",
-      InventoryReportingHeadingBlackLatter: "Assessment",
-      InventoryReportingPara:
-        "Calculating the value tied up in stagnant inventory, enabling make informed decisions regarding liquidation or clearance strategies.",
-      InventoryReportingItems: [
+      // features component----------------------------------------------
+      featuresHeadingSectionOne: "Regulatory Change Management",
+      featuresParaSectionOne:
+        "Stay updated with regulatory changes and adapt reporting processes accordingly to ensure ongoing compliance.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+      readMoreFinanceFeaturesVisibility: "none",
+      featuresSectionTwo: [
         {
-          icon: `${AiScheduler}`,
-          heading: "Disposal or Liquidation Options",
-          para: "Selling through discount channels, donating, or scrapping, to recover some value and free up storage space.",
+          heading: "Workflow Automation",
+          para: "Automate workflows for regulatory reporting, improving efficiency and reducing manual efforts.",
         },
         {
-          icon: `${AiPowerAutomationIcon}`,
-          heading: "Demand Forecasting Adjustments",
-          para: "Adjust demand forecasting algorithms or models to exclude dead stock items from future projections.",
+          heading: "Collaboration and Approval Workflow",
+          para: "Facilitate collaboration and implement approval workflows for regulatory reporting processes.",
         },
-
+        {
+          heading: "Fixed Assets Management",
+          para: "Efficiently track and manage your organization's fixed assets. Handle your asset management with ease, optimize depreciation, and enhance financial control.",
+        },
       ],
-      learnMoreInventoryReporting: "/learn-more-inventory-reporting",
-      learnMoreInventoryReportingVisibility: "none",
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
+      readMoreMannagementFeaturesVisibility: "none",
+    },
+    {
+      id: 8,
+      heroHeadingWebHomePageTitel: "",
+      heroHeadingWeb: "Asset Tracking and Inventory",
+      heroHeadingMobilePageTitel: "",
+      heroHeadingMobile: "Asset Tracking and Inventory",
+      heroParaWeb:
+        "Track and manage your organization's fixed assets, ensuring accurate records and preventing loss or misplacement.",
+      heroParaMobile:
+        "Track and manage your organization's fixed assets, ensuring accurate records and preventing loss or misplacement.",
+  
+      heroLearnMoreButton: "/learn-more-finance-mannage/1",
+      heroLearnMoreButtonVisibility: "none",
+  
+      // Automate process----------------------------------------
+      automateProcessHeading: "Depreciation Calculation",
+      automateProcessPara:
+        "Automate depreciation calculations based on predefined methods, simplifying financial reporting and compliance.",
+      automateProcessButton: "/learn-more-finance-mannage/2",
+      automateProcessButtonVisibility: "none",
+      automateProcessItems: [
+        {
+          icon: `${CashControlIcon}`,
+          heading: "Maintenance Scheduling and Tracking",
+          para: "Schedule and track asset maintenance activities to ensure optimal performance and prolong asset lifespan.",
+        },
+        {
+          icon: `${MoneyInfoIcon}`,
+          heading: "Asset Valuation and Appraisal",
+          para: "Evaluate and appraise the value of fixed assets periodically, providing accurate financial insights.",
+        },
+        {
+          icon: `${MoneyMapingIcon}`,
+          heading: "Asset Disposal and Retirement",
+          para: "Manage the disposal or retirement of fixed assets, adhering to regulatory and accounting requirements.",
+        },
+      ],
+  
+      // contact us component------------------------------------------
+      contactUsHeading: "Asset Categories and Classification",
+      contactUsPara:
+        "Maintain a comprehensive asset history and audit trail, enabling accurate asset tracking and accountability.",
+      learnMoreContactUs: "/learn-more-finance-mannage/3",
+      learnMoreContactUsVisibility: "none",
+  
+      // features component----------------------------------------------
+      featuresHeadingSectionOne: "Asset Insurance and Warranty Tracking",
+      featuresParaSectionOne:
+        "Monitor insurance coverage and warranty details for fixed assets, ensuring proper risk management.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+      readMoreFinanceFeaturesVisibility: "none",
+      featuresSectionTwo: [
+        {
+          heading: "Lease Management",
+          para: "Track leased assets, monitor lease terms, and manage lease contracts, optimizing financial control.",
+        },
+        {
+          heading: "Budgeting & Forecasting",
+          para: "Effectively plan and analyze your organization's financial performance with Ondel's Budgeting & Forecasting feature. Contemporize your budget creation, monitor variances, and make informed decisions.",
+        },
+      ],
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
+      readMoreMannagementFeaturesVisibility: "none",
+    },
+    {
+      id: 9,
+      heroHeadingWebHomePageTitel: "",
+      heroHeadingWeb: "Dynamic Budget Creation",
+      heroHeadingMobilePageTitel: "",
+      heroHeadingMobile: "Dynamic Budget Creation",
+      heroParaWeb:
+        "Create comprehensive budgets based on historical data, projections, and business goals, ensuring accurate financial planning.",
+      heroParaMobile:
+        "Create comprehensive budgets based on historical data, projections, and business goals.",
+  
+      heroLearnMoreButton: "/learn-more-finance-mannage/1",
+      heroLearnMoreButtonVisibility: "none",
+  
+      // Automate process----------------------------------------
+      automateProcessHeading: "Forecasting and Predictive Analytics",
+      automateProcessPara:
+        "Utilize forecasting techniques and predictive analytics to project future financial performance and identify trends.",
+      automateProcessButton: "/learn-more-finance-mannage/2",
+      automateProcessButtonVisibility: "none",
+      automateProcessItems: [
+        {
+          icon: `${CashControlIcon}`,
+          heading: "Scenario Analysis",
+          para: `Conduct "what-if" scenarios to assess the impact of different financial variables and optimize budgeting strategies.`,
+        },
+        {
+          icon: `${MoneyInfoIcon}`,
+          heading: "Collaborative Budgeting",
+          para: "Facilitate collaboration among team members during the budgeting process, improving accuracy and stakeholder engagement.",
+        },
+        {
+          icon: `${MoneyMapingIcon}`,
+          heading: "Revenue Forecasting",
+          para: "Forecast revenue based on market trends, historical data, and sales projections, improving financial accuracy.",
+        },
+      ],
+  
+      // contact us component------------------------------------------
+      contactUsHeading: "Automated Reporting",
+      contactUsPara:
+        "Generate comprehensive budget reports and financial statements automatically, saving time and improving data accuracy.",
+      learnMoreContactUs: "/learn-more-finance-mannage/3",
+      learnMoreContactUsVisibility: "none",
+  
+      // features component----------------------------------------------
+      featuresHeadingSectionOne: "Budget Approval Workflow",
+      featuresParaSectionOne:
+        "Implement an approval workflow for budget submissions, ensuring accountability and adherence to financial guidelines.",
+      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
+      readMoreFinanceFeaturesVisibility: "none",
+      featuresSectionTwo: [
+        {
+          heading: "Tax Forms Preparation",
+          para: "Prepare and generate necessary tax forms, such as W-2s and 1099s, ensuring compliance with tax reporting requirements.",
+        },
+        {
+          heading: "Payroll Compliance",
+          para: "Stay updated with payroll regulations and laws, ensuring compliance with labor and wage regulations.",
+        },
+        {
+          heading: "Integration with Time & Attendance Systems",
+          para: "Systematically integrate with time and attendance systems to streamline payroll calculations based on employee attendance records.",
+        },
+      ],
+      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
+      readMoreMannagementFeaturesVisibility: "none",
     },
   ],
 };

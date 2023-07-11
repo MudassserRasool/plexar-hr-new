@@ -13,7 +13,7 @@ const Features = ({ pageData }) => {
     <div className="featuresMargin px-2 p-md-0">
       <div className="container">
         {/* start upper row------------------------- */}
-        <div className="d-md-flex align-items-center justify-content-between">
+        <div className="d-md-flex flex-row-reverse align-items-center justify-content-between">
           <div className="col-md-7">
             <img src={CalendexWorkingImage} alt="" className="img-fluid" />
           </div>
@@ -24,11 +24,12 @@ const Features = ({ pageData }) => {
             <p className="plexarFeatureParagraph">{pageData.length > 0 && pageData[0]?.featuresParaSectionOne}</p>
 
             {/* stat read more and contact us button---------------------- */}
-            <div className={`d-flex align-items-center justify-content-around justify-content-sm-start gap-4 mt-4 mt-md-0 d-${pageData.length > 0 && pageData[0]?.readMoreInventoryFeaturesVisibility}`}>
+            <div className={`d-flex align-items-center justify-content-around justify-content-sm-start gap-4 mt-4 mt-md-0 `}>
               <Link
                 onClick={() => window.scrollTo(0, 0)}
-                to={`${pageData.length > 0 && pageData[0]?.readMoreInventoryFeatures}`}
-                className="text-decoration-none"
+                to={`${pageData.length > 0 && pageData[0]?.readMoreFinanceFeatures}`}
+                
+                className={`text-decoration-none d-${pageData.length > 0 && pageData[0]?.readMoreFinanceFeaturesVisibility}`}
               >
                 <div className="btnReadMoreBoxCoustom">
                   <p className="btnReadMoreTextCoustom">Read more</p>
@@ -52,7 +53,7 @@ const Features = ({ pageData }) => {
         {/* end upper row------------------------- */}
 
         {/* start Lower row------------------------- */}
-        <div className="d-md-flex flex-row-reverse align-items-center justify-content-between mt-4 gap-3 gap-md-0 pt-4 pt-md-0">
+        <div className="d-md-flex  align-items-center justify-content-between mt-4 gap-3 gap-md-0 pt-4 pt-md-0">
           <div className="col-md-7">
             <img
               src={MannagementGroupWorkingImgae}
@@ -72,7 +73,7 @@ const Features = ({ pageData }) => {
             <div className="d-flex align-items-center justify-content-around justify-content-sm-start gap-4 mt-4 mt-md-0">
               <Link
                 onClick={() => window.scrollTo(0, 0)}
-                to={`${pageData.length > 0 && pageData[0]?.readMoreMannagementFeatures}/3`}
+                to={`${pageData.length > 0 && pageData[0]?.readMoreMannagementFeatures}`}
                 className={`text-decoration-none d-${pageData.length > 0 && pageData[0]?.readMoreMannagementFeaturesVisibility}`}
               >
                 <div className="btnReadMoreBoxCoustom">

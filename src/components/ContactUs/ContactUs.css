@@ -1,14 +1,14 @@
 .coustomContactUsBg {
     background-color: #5B7CFD;
-    margin-top: 48px;
+    margin-top: 20px;
     height: auto; /* Set default height to "auto" */
   }
   
   @media (min-width: 768px) {
     /* Apply styles for medium-sized screens and above */
     .coustomContactUsBg {
-      height: 431px; /* Set the desired height for medium-sized screens and above */
-    margin-top: 109px;
+      height: 451px; /* Set the desired height for medium-sized screens and above */
+    margin-top: 48px;
     }
   }
   
@@ -25,15 +25,16 @@
   color: #FFFFFF;
 }
 
-@media (max-width: 767px) {
+@media only screen and (max-width: 767.98px) {
   /* Screens below medium */
   .contactUsHeadingMainPage {
     color: #FFF;
-font-size: 32px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: ;
   }
 }
 
@@ -70,8 +71,14 @@ line-height: normal;
 }
 
 .buttonsRowContactUs {
-    margin-top: 30px;
+    margin-top: 88.5px;
     padding-bottom: 20px;
+  }
+  @media only screen and (max-width: 767.98px) {
+    .buttonsRowContactUs{
+      margin-top: 50px;
+      padding-bottom: 20px;
+    }
   }
   .learnButtonButtonBox {
     width: 177px;

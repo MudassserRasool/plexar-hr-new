@@ -4,10 +4,7 @@ import { WomanImageForHeroSection } from "../../assets";
 import { Link } from "react-router-dom";
 // import { MyContext } from "../../context";
 
-const Hero = ({ pageData }) => {
-  // heroHeadingWebHomePageTitel, heroHeadingWeb, heroHeadingMobilePageTitel, heroHeadingMobile, heroParaWeb, heroParaMobile, heroLearnMoreButton
-  // const [value, setValue] = useContext(MyContext);
-  // console.log("asim s", pageData);
+const Hero = ({ pageData }) => { 
 
   return (
     <div className="coustomBg">

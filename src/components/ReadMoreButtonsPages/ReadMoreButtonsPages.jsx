@@ -2,10 +2,10 @@ import React, { useState, useContext, useEffect } from "react";
 import Hero from "../Hero/Hero";
 import Features from "../Features/Features";
 import ContactUs from "../ContactUs/ContactUs";
-import SmartInventoryReportingItemName from "../SmartInventoryReporting/SmartInventoryReporting";
 import { HomePageContent } from "../../static/Content";
 import { MyContext } from "../../context";
 import { useParams } from "react-router-dom";
+import AutomateProcess from "../AutomateProcess/AutomateProcess";
 
 const ReadMoreButtonsPages = ({ vol }) => {
   const [pageData, setPageData]= useState([]);
@@ -26,73 +26,26 @@ const ReadMoreButtonsPages = ({ vol }) => {
     }
   }, [id]);
 
-  // if (!page) {
-  //   // Handle the case when the page is not found
-  //   return <div>Page not found</div>;
-  // }
-
-  // const {
-  //   heroHeadingWebHomePageTitel,
-  //   heroHeadingWeb,
-  //   heroHeadingMobilePageTitel,
-  //   heroHeadingMobile,
-  //   heroParaWeb,
-  //   heroParaMobile,
-  //   heroLearnMoreButton,
-  //   featuresHeadingSectionOne,
-  //   featuresParaSectionOne,
-  //   readMoreInventoryFeatures,
-  //   featuresSectionTwo,
-  //   readMoreMannagementFeatures,
-  //   contactUsHeading,
-  //   contactUsPara,
-  //   heroLearnContactUs,
-  //   InventoryReportingHeadingBlueLatter,
-  //   InventoryReportingHeadingBlackLatter,
-  //   InventoryReportingPara,
-  //   InventoryReportingItems,
-  //   learnMoreInventoryReporting,
-  // } = page;
+ 
 
   return (
     <div>
       <Hero
       pageData={pageData}
-        // heroHeadingWebHomePageTitel={heroHeadingWebHomePageTitel}
-        // heroHeadingWeb={heroHeadingWeb}
-        // heroHeadingMobilePageTitel={heroHeadingMobilePageTitel}
-        // heroHeadingMobile={heroHeadingMobile}
-        // heroParaWeb={heroParaWeb}
-        // heroParaMobile={heroParaMobile}
-        // heroLearnMoreButton={heroLearnMoreButton}
-        // setidToLoadPage={setidToLoadPage}
+      
+      />
+      <AutomateProcess
+      pageData={pageData}
+      />
+       <ContactUs
+      pageData={pageData}
       />
       <Features
       pageData={pageData}
-        // featuresHeadingSectionOne={featuresHeadingSectionOne}
-        // featuresParaSectionOne={featuresParaSectionOne}
-        // readMoreInventoryFeatures={readMoreInventoryFeatures}
-        // featuresSectionTwo={featuresSectionTwo}
-        // readMoreMannagementFeatures={readMoreMannagementFeatures}
+      
       />
-     <ContactUs
-      pageData={pageData}
-        // contactUsHeading={contactUsHeading}
-        // contactUsPara={contactUsPara}
-        // heroLearnContactUs={heroLearnContactUs}
-      />
-       <SmartInventoryReportingItemName
-      pageData={pageData}
-      //   InventoryReportingHeadingBlueLatter={
-      //     InventoryReportingHeadingBlueLatter
-      //   }
-      //   InventoryReportingHeadingBlackLatter={
-      //     InventoryReportingHeadingBlackLatter
-      //   }
-      //   InventoryReportingPara={InventoryReportingPara}
-      //   InventoryReportingItems={InventoryReportingItems}
-      //   learnMoreInventoryReporting={learnMoreInventoryReporting}
-      />
+    
+      
     </div>
   );
 };
