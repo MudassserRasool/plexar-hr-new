@@ -17,7 +17,7 @@ const App = () => {
       <MyContextProvider>
           <Routes>
             <Route element={<Home />} path="/" />
-            <Route element={<ReadMoreButtonsPages />} path="/learn-more-finance-mannage/:id" />
+            <Route element={<ReadMoreButtonsPages />} path="/learn-more-hr-features/:id" />
           </Routes>
         </MyContextProvider>
       </BrowserRouter>

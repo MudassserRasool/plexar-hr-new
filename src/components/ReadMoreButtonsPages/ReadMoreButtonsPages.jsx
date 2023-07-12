@@ -1,11 +1,11 @@
 import React, { useState, useContext, useEffect } from "react";
 import Hero from "../Hero/Hero";
-import Features from "../Features/Features";
 import ContactUs from "../ContactUs/ContactUs";
 import { HomePageContent } from "../../static/Content";
 import { MyContext } from "../../context";
 import { useParams } from "react-router-dom";
 import AutomateProcess from "../AutomateProcess/AutomateProcess";
+import HrResponsibilities from "../HrResponsibilities/HrResponsibilities";
 
 const ReadMoreButtonsPages = ({ vol }) => {
   const [pageData, setPageData]= useState([]);
@@ -32,7 +32,6 @@ const ReadMoreButtonsPages = ({ vol }) => {
     <div>
       <Hero
       pageData={pageData}
-      
       />
       <AutomateProcess
       pageData={pageData}
@@ -40,12 +39,9 @@ const ReadMoreButtonsPages = ({ vol }) => {
        <ContactUs
       pageData={pageData}
       />
-      <Features
-      pageData={pageData}
-      
+      <HrResponsibilities
+       pageData={pageData}
       />
-    
-      
     </div>
   );
 };

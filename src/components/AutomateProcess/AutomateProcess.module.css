@@ -49,23 +49,22 @@
   }
 }
 
-.learnButtonButtonBox {
-  width: 345px !important;
-  height: 40px;
-  margin-top: 15px;
+.learnButtonBoxMannagement {
+  width: 160px !important;
+  height: 56px;
   border-radius: 4px;
   border: 1px solid #5b7cfd;
   padding-bottom: 53px;
+  margin-top: 39px;
 }
 
-@media (min-width: 768px) {
-  .learnButtonButtonBox {
-    width: 160px !important;
-    height: 40px;
+@media only screen and (max-width: 767.98px) {
+  .learnButtonBoxMannagement {
+    width: 345px !important;
+    height: 40px !important;
+    margin-top: 15px;
     border-radius: 4px;
     border: 1px solid #5b7cfd;
-    padding-bottom: 53px;
-    margin-top: 39px;
   }
 }
 
@@ -85,55 +84,54 @@
   height: 64px;
 }
 @media only screen and (max-width: 767.98px) {
-    .moneyMannageIcon {
-        width: 64px;
-        height: 64px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .moneyMannageIcon {
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
 
-.itemHeadingAndDiscription{
-margin-left: 0px;
+.itemHeadingAndDiscription {
+  margin-left: 0px;
 }
 @media only screen and (max-width: 767.98px) {
-    .itemHeadingAndDiscription {
-       margin-left: 0px;
-       margin-top: 15px;
-    }
+  .itemHeadingAndDiscription {
+    margin-left: 0px;
+    margin-top: 15px;
   }
-
+}
 
 .moneyMannageItemHeading {
-    color: #333;
-    font-family: 'Roboto';
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
+  color: #333;
+  font-family: "Roboto";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 @media only screen and (max-width: 767.98px) {
-    .moneyMannageItemHeading {
-       text-align: center;
-    }
+  .moneyMannageItemHeading {
+    text-align: center;
   }
+}
 
 .moneyMannageDiscription {
-    color: #666;
-font-family: 'Roboto';
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px;
-margin-top: 21px;
-width: 358px;
+  color: #666;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 21px;
+  width: 358px;
 }
 @media only screen and (max-width: 767.98px) {
-    .moneyMannageDiscription {
-        text-align: center;
-        font-size: 12px;
-        line-height: 18px;
-        margin-top: 10px;
-        width: 300px;
-    }
+  .moneyMannageDiscription {
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+    width: 300px;
   }
+}

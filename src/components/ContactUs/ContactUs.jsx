@@ -1,6 +1,6 @@
 import React from "react";
 import "./ContactUs.css";
-import { MarkitingAnimatedPcImage } from "..//../assets/index";
+import { ContactUsAnimation } from "..//../assets/index";
 import { Link } from "react-router-dom";
 const ContactUs = ({pageData}) => {
   return (
@@ -11,11 +11,11 @@ const ContactUs = ({pageData}) => {
             {/* start left side-------------------------------- */}
             <div className="col-md-5">
               <img
-                src={MarkitingAnimatedPcImage}
+                src={ContactUsAnimation}
                 alt="file not loaded"
                 className="markitingImageAligenment img-fluid"
-                width={585}
-                height={515}
+                // width={585}
+                // height={515}
               />
             </div>
             {/* end left side-------------------------------- */}
@@ -32,9 +32,9 @@ const ContactUs = ({pageData}) => {
                 <div className="contactUsButtonBox">
                   <p className="contactUsButtonText">Contact Us</p>
                 </div>
-                <Link className={`text-decoration-none d-${pageData.length > 0 && pageData[0]?.heroLearnContactUsVisibility}`} to={`${pageData.length > 0 && pageData[0]?.learnMoreContactUs}`} onClick={() => window.scrollTo(0, 0)}>
-                  <div className="learnButtonButtonBox ms-2">
-                    <p className="text-center pt-3 learnButtonCoustomText">
+                <Link className={`text-decoration-none d-${pageData.length > 0 && pageData[0]?.learnMoreContactUsVisibility}`} to={`${pageData.length > 0 && pageData[0]?.learnMoreContactUs}`} onClick={() => window.scrollTo(0, 0)}>
+                  <div className="learnButtonBox ms-2">
+                    <p className="text-center pt-2 learnButtonCoustomText">
                       Learn More
                     </p>
                   </div>

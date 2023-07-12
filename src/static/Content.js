@@ -4,71 +4,76 @@ import { CashControlIcon, MoneyInfoIcon, MoneyMapingIcon } from "../assets/index
 export const defaultData = [
   {
     id: 1,
-    heroHeadingWebHomePageTitel: "Ondel -",
-    heroHeadingWeb: "No.1 AI-Powered Accounting Software for Every Business",
-    heroHeadingMobilePageTitel: "General ledger",
-    heroHeadingMobile: "& bank reconciliation, financial reporting & analysis",
+    heroHeadingWebHomePageTitel: "iReach -",
+    heroHeadingWeb: "Enrich Your Workforce with AI-Driven HRMS",
+    heroHeadingMobilePageTitel: "HR Management",
+    heroHeadingMobile: "Track employee information & performance",
     heroParaWeb:
-      "A comprehensive financial management system to track expenses, manage invoices, & process payments. Generate financial reports & gain insights into your business's financial health.",
+      "Manage your workforce, streamline your HR operations, generate reports & gain valuable insights to help you make data-driven decisions.",
     heroParaMobile:
-      "A comprehensive financial management system to track expenses, manage invoices, & process payments. ",
+      "Manage your workforce, streamline your HR operations, generate reports & gain valuable insights to help you make data-driven decisions.",
 
-    heroLearnMoreButton: "/learn-more-finance-mannage/1",
+    heroLearnMoreButton: "/learn-more-hr-features/1",
     heroLearnMoreButtonVisibility: "block",
 
     // Automate process----------------------------------------
-    automateProcessHeading: "Automated Invoicing",
+    automateProcessHeading: "Simplified Employee Onboarding with Plexaar",
     automateProcessPara:
-      "Plexaar's Accounting & Finance module automates the invoicing process by generating invoices & sending them to customers automatically. Users can also track payment status & send payment reminders to customers.",
-    automateProcessButton: "/learn-more-finance-mannage/2",
+      "The best HR Management module that simplifies employee onboarding & provides a single platform for all employee-related data. You can manage employee records, track performance, & monitor attendance in one place.",
+    automateProcessButton: "/learn-more-hr-features/2",
     automateProcessButtonVisibility: "block",
     automateProcessItems: [
       {
         icon: `${CashControlIcon}`,
-        heading: "The Money Map",
-        para: "General ledger & chart of accounts, Accounts payable & receivable, Tax management & compliance.",
+        heading: "Performance evaluation & appraisal",
+        para: "Improve employee performance through comprehensive evaluation and appraisal processes.",
       },
       {
         icon: `${MoneyInfoIcon}`,
-        heading: "Cash Control",
-        para: "Bank reconciliation & cash management, Budgeting & forecasting, Fixed asset management.",
+        heading: "Training & development management",
+        para: "Restructure employee training and development initiatives for improved skill-building & growth.",
       },
       {
         icon: `${MoneyMapingIcon}`,
-        heading: "Know Your Money",
-        para: "Financial reporting & analysis, Credit control & collections, Billing & invoicing, Multi-currency.",
+        heading: "Recruitment & onboarding",
+        para: "Simplify recruitment and onboarding processes for seamless talent acquisition and integration.",
       },
     ],
 
     // contact us component------------------------------------------
-    contactUsHeading: "Finance Management",
+    contactUsHeading: "Streamlined Payroll Processing",
     contactUsPara:
-      "Analyze your financial data with powerful analytics tools, including charts, graphs, and other visualizations. Create budgets for your business & track your progress towards your financial goals. Set up alerts when you're getting close to your budget limits.",
-    learnMoreContactUs: "/learn-more-finance-mannage/3",
+      "Plexaar's HR Management module also streamlines payroll processing by automating payroll calculations & generating payslips. Users can also configure tax deductions, benefits, & allowances for their employees.",
+    learnMoreContactUs: "/learn-more-hr-features/3",
     learnMoreContactUsVisibility: "block",
 
-    // features component----------------------------------------------
-    featuresHeadingSectionOne: "Comprehensive Financial Reports",
-    featuresParaSectionOne:
-      "Keep track of your business’s financial health by effectively tracking progress, budgeting and analyzing the daily finance reports to reduce the cost.",
-    readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-    readMoreFinanceFeaturesVisibility: "block",
-    featuresSectionTwo: [
+    // HR responsibilities component----------------------------------------------
+    hrResponsibilitiesHeading : "Customizable HR Reports",
+    hrResponsibilitiesDiscription : "Generate customizable reports on employee performance, attendance, & payroll.",
+    hrResponsibilitiesCards: [
       {
-        heading: "Visualize your financial story",
-        para: "Analyze your financial data with powerful analytics tools, including charts, graphs, and other visualizations.",
+        id: 1,
+        heading: "Employee engagement & retention",
+        para: "Boost productivity & job satisfaction with features like surveys, recognition, rewards, and talent management.",
       },
       {
-        heading: "Budget like a boss",
-        para: "Create budgets for your business and track your progress towards your financial goals.",
+        id: 2,
+        heading: "Organizational development",
+        para: "Optimize growth & performance with strategic planning, goal-setting, performance tracking, and learning & development tools.",
       },
       {
-        heading: "Don't overspend, get notified",
-        para: "You can also set up alerts to notify you when you're getting close to your budget limits.",
+        id:3,
+        heading: "HR automation & workflows",
+        para: "Modernize HR processes with automation for onboarding, benefits administration, time & attendance, and leave management.",
+      },
+      {
+        id:4,
+        heading: "Health & safety management",
+        para: "You can set up & manage safety protocols, track incidents, conduct risk assessments, & maintain compliance with industry regulations.",
       },
     ],
-    readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-    readMoreMannagementFeaturesVisibility: "block",
+    learnMoreHrResponsibilities : "/learn-more-hr-features/4",
+    learnMoreHrResponsibilitiesVisibility : "block",
   },
 ];
 
@@ -78,611 +83,368 @@ export const HomePageContent = {
     {
       id: 1,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "General Ledger Management",
+      heroHeadingWeb: "AI-Based ESS System",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "General Ledger Management",
+      heroHeadingMobile: "AI-Based ESS System",
       heroParaWeb:
-        "Manage your financial records with Ondel's General Ledger Management system. Stay organized, track transactions, and gain valuable insights into your company's financial health.",
+        "The AI-Based ESS (Employee Self-Service) System is a cutting-edge feature. It leverages artificial intelligence to provide employees with self-service capabilities, empowering them to manage their own HR-related tasks and access relevant information.",
       heroParaMobile:
-        "Stay organized, track transactions, and gain valuable insights into your company's financial health.",
+        "Leveraging AI to provide employees with self-service capabilities, empowering them to manage their own HR-related tasks.",
   
-      heroLearnMoreButton: "/learn-more-finance-mannage/6",
+      heroLearnMoreButton: "/learn-more-hr-features/5",
       heroLearnMoreButtonVisibility: "block",
   
       // Automate process----------------------------------------
-      automateProcessHeading: "Transaction Tracking",
+      automateProcessHeading: "Personalized HR Dashboards",
       automateProcessPara:
-        "Record and track all financial transactions in one central location, ensuring accuracy and transparency.",
-      automateProcessButton: "/learn-more-finance-mannage/7",
-      automateProcessButtonVisibility: "block",
+        "Deliver personalized dashboards to employees, displaying relevant information such as leave balances, attendance records, performance metrics, and personalized announcements.",
+      automateProcessButton: "/learn-more-hr-features/2",
+      automateProcessButtonVisibility: "none",
       automateProcessItems: [
         {
           icon: `${CashControlIcon}`,
-          heading: "Journal Entries",
-          para: "Easily create and manage journal entries to document various financial activities and maintain an accurate record.",
+          heading: "Leave Management",
+          para: "Allow employees to apply for leave, view leave balances, and track the status of their requests, while utilizing AI algorithms to automate leave approval processes based on predefined rules.",
         },
         {
           icon: `${MoneyInfoIcon}`,
-          heading: "Account Balances",
-          para: "Keep track of account balances in real-time, ensuring a clear overview of your financial standing.",
+          heading: "Employee Database",
+          para: "Enable employees to update personal information, emergency contacts, and banking details, ensuring accurate and up-to-date employee data while reducing administrative overhead.",
         },
         {
           icon: `${MoneyMapingIcon}`,
-          heading: "Chart of Accounts",
-          para: "Customize and organize your chart of accounts to align with your specific business needs and reporting requirements.",
+          heading: "Performance Tracking",
+          para: "Provide employees with the ability to set goals, track their performance, and receive AI-driven feedback, fostering a culture of continuous improvement and employee development.",
         },
       ],
   
       // contact us component------------------------------------------
-      contactUsHeading: "Account Reconciliation",
+      contactUsHeading: "Streamlined Payroll Processing",
       contactUsPara:
-        "Improve the process of reconciling accounts, ensuring accuracy and identifying discrepancies.",
-      learnMoreContactUs: "/learn-more-finance-mannage/8",
-      learnMoreContactUsVisibility: "block",
+        "Plexaar's HR Management module also streamlines payroll processing by automating payroll calculations & generating payslips. Users can also configure tax deductions, benefits, & allowances for their employees.",
+      learnMoreContactUs: "/learn-more-hr-features/3",
+      learnMoreContactUsVisibility: "none",
   
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Financial Reporting",
-      featuresParaSectionOne:
-        "Generate comprehensive financial reports, including balance sheets, income statements, and cash flow statements, to analyze your company's financial performance.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/9",
-      readMoreFinanceFeaturesVisibility: "block",
-      featuresSectionTwo: [
+      // HR responsibilities component----------------------------------------------
+      hrResponsibilitiesHeading : "Training and Development",
+      hrResponsibilitiesDiscription : "Offer self-service access to training materials, online courses, and skill development resources, empowering employees to enhance their knowledge and skills at their own pace.",
+      hrResponsibilitiesCards: [
         {
-          heading: "Audit Trail",
-          para: "Maintain a detailed audit trail of all financial transactions, providing transparency and compliance with regulatory standards.",
+          id: 1,
+          heading: "Document Management",
+          para: "Allow employees to securely access and manage important HR documents, such as contracts, policies, and company-wide communications, reducing paper usage and facilitating efficient information retrieval.",
         },
         {
-          heading: "Intercompany Transactions",
-          para: "Manage transactions between multiple entities or subsidiaries within your organization, ensuring accurate intercompany accounting.",
+          id: 2,
+          heading: "Chatbot Assistance",
+          para: "Integrate AI-powered chatbot functionality to provide employees with instant responses to frequently asked questions, enhancing self-service capabilities and minimizing the need for manual HR support.",
         },
         {
-          heading: "Closing & Year-End Processes",
-          para: "Simplify the closing and year-end processes with automated workflows, reducing manual effort and improving efficiency.",
+          id:3,
+          heading: "Organogram View",
+          para: "It provides a visual representation of an organization's hierarchical structure. It offers a comprehensive overview of reporting relationships, departments, and positions, enabling businesses to understand the organization's structure, and streamline communication.",
+        },
+        {
+          id:4,
+          heading: "Role-Based Access Control",
+          para: "Assign specific access levels and permissions to different positions within the organogram, ensuring data security and maintaining confidentiality.",
         },
       ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
+      learnMoreHrResponsibilities : "/learn-more-hr-features/4",
+      learnMoreHrResponsibilitiesVisibility : "none",
     },
     {
       id: 2,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Integration with Other Modules",
+      heroHeadingWeb: "Employee Profile Integration",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Integration with Other Modules",
+      heroHeadingMobile: "Employee Profile Integration",
       heroParaWeb:
-        "Integrate General Ledger Management with other accounting modules, such as accounts payable and accounts receivable, for a comprehensive financial management solution.",
+        "Access employee profiles directly from the organogram, providing quick access to individual details, such as contact information, job roles, and performance history.",
       heroParaMobile:
-        "Integrate with other accounting modules, such as accounts payable and accounts receivable.",
+        "Access employee profiles directly from the organogram, providing quick access to individual details.",
   
-      heroLearnMoreButton: "/learn-more-finance-mannage/1",
+      heroLearnMoreButton: "/learn-more-hr-features/1",
       heroLearnMoreButtonVisibility: "none",
   
       // Automate process----------------------------------------
-      automateProcessHeading: "Accounts Receivable & Payable",
+      automateProcessHeading: "Quick Search and Filtering",
       automateProcessPara:
-        "Manage your business's cash flow effortlessly. Spruce up your invoicing, track payments, and stay on top of your financial transactions.",
-      automateProcessButton: "/learn-more-finance-mannage/2",
+        "Easily search for specific positions or employees within the organogram, saving time and enabling efficient navigation through the organizational structure.",
+      automateProcessButton: "/learn-more-hr-features/2",
       automateProcessButtonVisibility: "none",
       automateProcessItems: [
         {
           icon: `${CashControlIcon}`,
-          heading: "Invoicing Automation",
-          para: "Create and send professional invoices to your customers with ease, reducing manual effort and improving efficiency.",
+          heading: "Drag-and-Drop Editing",
+          para: "Intuitively modify the organogram by adding, deleting, or moving positions, reflecting changes in the organization's structure and ensuring up-to-date representation.",
         },
         {
           icon: `${MoneyInfoIcon}`,
-          heading: "Aging Reports",
-          para: "Gain insights into the status of your receivables and payables with aging reports, helping you identify outstanding balances and take necessary actions.",
+          heading: "Position Details",
+          para: "View detailed information about each position, including job descriptions, key responsibilities, and performance metrics, supporting better decision-making and talent management.",
         },
         {
           icon: `${MoneyMapingIcon}`,
-          heading: "Customer Statements",
-          para: "Generate detailed statements for your customers, providing them with a clear overview of their outstanding balances and payment history.",
+          heading: "Organizational Planning and Succession",
+          para: "Identify talent gaps and potential succession paths within the organogram, facilitating strategic workforce planning and succession management for future organizational needs.",
         },
       ],
   
       // contact us component------------------------------------------
-      contactUsHeading: "Payment Reminders",
+      contactUsHeading: "GPS Attendance",
       contactUsPara:
-        "Automate payment reminders to customers, reducing late payments and improving collection rates.",
-      learnMoreContactUs: "/learn-more-finance-mannage/3",
+        "The GPS Attendance uses GPS technology to track and monitor employee attendance in real-time. It helps you to accurately record employee attendance, track remote workers, ensure compliance, and improve workforce management.",
+      learnMoreContactUs: "/learn-more-hr-features/3",
       learnMoreContactUsVisibility: "none",
   
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Vendor Management",
-      featuresParaSectionOne:
-        "Reform your payables by managing vendor information, tracking payment due dates, and ensuring timely payments.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-      readMoreFinanceFeaturesVisibility: "none",
-      featuresSectionTwo: [
+      // HR responsibilities component----------------------------------------------
+      hrResponsibilitiesHeading : "Geofencing",
+      hrResponsibilitiesDiscription : "Define virtual boundaries for specific locations and receive alerts when employees enter or exit these designated areas, ensuring accurate attendance tracking.",
+      hrResponsibilitiesCards: [
         {
-          heading: "Purchase Orders",
-          para: "Create and manage purchase orders to track expenses, improve accuracy, and streamline the procurement process.",
+          id: 1,
+          heading: "Mobile App Integration",
+          para: "Allow employees to use their mobile devices to mark attendance, providing flexibility and convenience for on-the-go or remote workers.",
         },
         {
-          heading: "Expense Tracking",
-          para: "Record and track business expenses, ensuring accurate financial reporting and expense management.",
+          id: 2,
+          heading: "Real-time Attendance Tracking",
+          para: "Monitor attendance data in real-time, enabling supervisors to promptly address attendance issues and ensure timely workforce management.",
         },
         {
-          heading: "Payment Integration",
-          para: "Integrate with payment gateways to facilitate online payments from customers, offering convenience and improving cash flow.",
+          id:3,
+          heading: "Location Verification",
+          para: "Verify employee attendance by cross-referencing GPS data with designated work locations, reducing the risk of fraudulent attendance reporting.",
+        },
+        {
+          id:4,
+          heading: "Absence and Late Reporting",
+          para: "Automate absence and late reporting based on GPS data, streamlining the process and reducing manual intervention for HR personnel.",
         },
       ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
+      learnMoreHrResponsibilities : "/learn-more-hr-features/4",
+      learnMoreHrResponsibilitiesVisibility : "none",
     },
     {
       id: 3,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Cash Flow Analysis",
+      heroHeadingWeb: "Attendance Analytics",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Cash Flow Analysis",
+      heroHeadingMobile: "Attendance Analytics",
       heroParaWeb:
-        "Analyze your receivables and payables data to gain insights into your cash flow patterns and make informed financial decisions.",
+        "Generate insightful reports and analytics on attendance patterns, trends, and exceptions, facilitating data-driven decision-making for workforce optimization.",
       heroParaMobile:
-        "Analyze your receivables and payables data to gain insights into your cash flow patterns.",
+        "Generate insightful analytics on attendance patterns & trends, facilitating data-driven decision-making.",
   
-      heroLearnMoreButton: "/learn-more-finance-mannage/1",
+      heroLearnMoreButton: "/learn-more-hr-features/1",
       heroLearnMoreButtonVisibility: "none",
   
       // Automate process----------------------------------------
-      automateProcessHeading: "Bank Reconciliation",
+      automateProcessHeading: "Compliance and Audit Trail",
       automateProcessPara:
-        "Reconcile your financial records with Ondel's Bank Reconciliation system effortlessly. Keep your accounts in sync, identify discrepancies, and ensure accurate financial reporting.",
-      automateProcessButton: "/learn-more-finance-mannage/2",
+        "Maintain a detailed audit trail of attendance records, ensuring compliance with labor laws, regulations, and company policies, and providing a reliable record for audits or legal purposes.",
+      automateProcessButton: "/learn-more-hr-features/2",
       automateProcessButtonVisibility: "none",
       automateProcessItems: [
         {
           icon: `${CashControlIcon}`,
-          heading: "Automated Matching",
-          para: "Automatically match your bank transactions with your accounting records, saving time and ensuring accuracy.",
+          heading: "360-Degree Employee Evaluation",
+          para: "Get comprehensive and multi-dimensional assessments of employees' performance. It gathers feedback from various sources to provide a holistic view, fostering development, and enhancing employee performance.",
         },
         {
           icon: `${MoneyInfoIcon}`,
-          heading: "Statement Import",
-          para: "Easily import bank statements into the software, streamlining the reconciliation process and reducing manual data entry.",
+          heading: "Multi-Rater Feedback",
+          para: "Collect feedback from supervisors, peers, subordinates, and even external stakeholders, ensuring a well-rounded evaluation process.",
         },
         {
           icon: `${MoneyMapingIcon}`,
-          heading: "Discrepancy Detection",
-          para: "Identify and resolve discrepancies between your bank statements and accounting records, ensuring accurate financial reporting.",
+          heading: "Goal Alignment",
+          para: "Align evaluation criteria with individual and organizational goals, promoting clarity, and accountability in performance expectations.",
         },
       ],
   
       // contact us component------------------------------------------
-      contactUsHeading: "Clearing and Adjustments",
+      contactUsHeading: "Anonymous Feedback Option",
       contactUsPara:
-        "Efficiently clear and adjust transactions, ensuring your books reflect the correct balances and improving reconciliation accuracy.",
-      learnMoreContactUs: "/learn-more-finance-mannage/3",
+        "Allow raters to provide feedback anonymously, encouraging honest and unbiased assessments.",
+      learnMoreContactUs: "/learn-more-hr-features/3",
       learnMoreContactUsVisibility: "none",
   
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Bank Statement Reconciliation",
-      featuresParaSectionOne:
-        "Reconcile your bank statements with ease, ensuring that your records align with your actual bank balances.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-      readMoreFinanceFeaturesVisibility: "none",
-      featuresSectionTwo: [
+      // HR responsibilities component----------------------------------------------
+      hrResponsibilitiesHeading : "Competency Mapping",
+      hrResponsibilitiesDiscription : "Assess employee performance against predefined competencies and skills, identifying strengths and areas for improvement.",
+      hrResponsibilitiesCards: [
         {
-          heading: "Error Resolution",
-          para: "Quickly identify and rectify errors or missing transactions, maintaining accurate financial records.",
+          id: 1,
+          heading: "Continuous Feedback Loop",
+          para: "Facilitate ongoing feedback and coaching conversations between employees and raters, promoting continuous development.",
         },
         {
-          heading: "Reconciliation Reports",
-          para: "Generate comprehensive reports that provide a clear overview of the reconciliation process, helping you track progress and ensure completeness.",
+          id: 2,
+          heading: "Development Planning",
+          para: "Create personalized development plans based on evaluation outcomes, supporting employee growth, and enhancing career development opportunities.",
         },
         {
-          heading: "Multiple Account Support",
-          para: "Reconcile multiple bank accounts simultaneously, simplifying the reconciliation process for businesses with complex financial structures.",
+          id:3,
+          heading: "Applicant Tracking System (ATS)",
+          para: "The Applicant Tracking System (ATS) abridges the recruitment process by automating and organizing the hiring workflow. It efficiently manages job postings, applications, candidate evaluations, and communication, ensuring a structured and efficient recruitment experience.",
+        },
+        {
+          id:4,
+          heading: "Job Posting Management",
+          para: "Easily create, publish, and manage job postings across multiple platforms, reaching a wider pool of potential candidates.",
         },
       ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
+      learnMoreHrResponsibilities : "/learn-more-hr-features/4",
+      learnMoreHrResponsibilitiesVisibility : "none",
     },
     {
       id: 4,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Integration with Bank Feeds",
+      heroHeadingWeb: "Resume Parsing",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Integration with Bank Feeds",
+      heroHeadingMobile: "Resume Parsing",
       heroParaWeb:
-        "Optimally connect with bank feeds to automatically import transactions, improving efficiency and accuracy in the reconciliation process.",
+        "Automatically extract and organize candidate information from resumes, saving time and improving accuracy in candidate evaluation.",
       heroParaMobile:
-        "Connect with bank feeds to import transactions, improving accuracy in the reconciliation process.",
+        "Extract & organize candidate information from resumes, improving accuracy in evaluation.",
   
-      heroLearnMoreButton: "/learn-more-finance-mannage/1",
+      heroLearnMoreButton: "/learn-more-hr-features/1",
       heroLearnMoreButtonVisibility: "none",
   
       // Automate process----------------------------------------
-      automateProcessHeading: "Cash Flow Management",
+      automateProcessHeading: "Customizable Application Forms",
       automateProcessPara:
-        "Take control of your business's financial health with Cash Flow Management. Monitor, analyze, and optimize your cash flow for improved financial stability.",
-      automateProcessButton: "/learn-more-finance-mannage/2",
+        "Create tailored application forms with specific questions and requirements, capturing relevant candidate data for efficient evaluation.",
+      automateProcessButton: "/learn-more-hr-features/2",
       automateProcessButtonVisibility: "none",
       automateProcessItems: [
         {
           icon: `${CashControlIcon}`,
-          heading: "Cash Flow Tracking",
-          para: "Gain real-time visibility into your cash inflows and outflows, helping you understand and manage your business's liquidity.",
+          heading: "Candidate Screening and Filtering",
+          para: "Use predefined criteria to screen and filter applicants, identifying the most qualified candidates for further evaluation.",
         },
         {
           icon: `${MoneyInfoIcon}`,
-          heading: "Receivables and Payables Management",
-          para: "Effectively manage your receivables and payables to optimize cash flow, minimize delays, and improve collections.",
+          heading: "Interview Scheduling",
+          para: "Streamline the interview process by scheduling interviews, sending automated notifications, and managing interview logistics.",
         },
         {
           icon: `${MoneyMapingIcon}`,
-          heading: "Expense Monitoring",
-          para: "Track and analyze your business expenses to identify areas where cost savings can be made and optimize cash flow.",
+          heading: "Collaboration and Feedback",
+          para: "Enable collaboration among hiring team members, allowing them to provide feedback and evaluate candidates collectively.",
         },
       ],
   
       // contact us component------------------------------------------
-      contactUsHeading: "Cash Flow Projections",
+      contactUsHeading: "Reporting and Analytics",
       contactUsPara:
-        "Generate detailed cash flow projections to assess future cash availability and make informed financial decisions.",
-      learnMoreContactUs: "/learn-more-finance-mannage/3",
+        "Generate reports and analytics on recruitment metrics, such as time-to-hire and source effectiveness, facilitating data-driven decision-making and process optimization.",
+      learnMoreContactUs: "/learn-more-hr-features/3",
       learnMoreContactUsVisibility: "none",
   
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Cash Flow Analysis",
-      featuresParaSectionOne:
-        "Analyze your cash flow patterns, identify trends, and pinpoint areas for improvement or potential risks.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-      readMoreFinanceFeaturesVisibility: "none",
-      featuresSectionTwo: [
+      // HR responsibilities component----------------------------------------------
+      hrResponsibilitiesHeading : "Career Page Integration",
+      hrResponsibilitiesDiscription : "The Career Page Integration enables the seamless integration of a company's career page with the software, enhancing the recruitment process and providing a user-friendly experience for both candidates and hiring teams.",
+      hrResponsibilitiesCards: [
         {
-          heading: "Working Capital Optimization",
-          para: "Optimize your working capital by efficiently managing inventory levels, accounts receivable, and accounts payable.",
+          id: 1,
+          heading: "Customizable Job Listings",
+          para: "Create and customize job listings on the career page, showcasing the company's brand and attracting top talent.",
         },
         {
-          heading: "Cash Flow Reporting",
-          para: "Generate comprehensive cash flow reports that provide insights into your cash position and help in financial analysis.",
+          id: 2,
+          heading: "Application Management",
+          para: "Receive and manage job applications directly through the integrated career page, ensuring a centralized and organized application process.",
         },
         {
-          heading: "Integration with Financial Accounts",
-          para: "Coherently integrate with your bank accounts and financial institutions for modernized cash flow management.",
+          id:3,
+          heading: "Candidate Tracking",
+          para: "Track and monitor candidate progress and status, from application submission to hiring decision, ensuring visibility and efficient candidate management.",
+        },
+        {
+          id:4,
+          heading: "Job Alert Notifications",
+          para: "Allow candidates to subscribe to job alerts, receiving notifications about new job openings and updates, increasing candidate engagement.",
         },
       ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
+      learnMoreHrResponsibilities : "/learn-more-hr-features/4",
+      learnMoreHrResponsibilitiesVisibility : "none",
     },
+    // sub pages of the 1st sub page (General Ledger Management)------------------------------------------------------------------------------
     {
       id: 5,
       heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Tax Management",
+      heroHeadingWeb: "Employer Branding",
       heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Tax Management",
+      heroHeadingMobile: "Employer Branding",
       heroParaWeb:
-        "Make your tax processes smooth and stay compliant with Ondel's Tax Management system. Readily manage taxes, reduce errors, and update your tax filing.",
+        "Showcase the company's brand, culture, and values on the career page, attracting candidates who align with the organization's vision.",
       heroParaMobile:
-        "Make your tax processes smooth and stay compliant with Ondel's Tax Management system. ",
+        "Showcase the company's culture & values, attracting candidates who align with the organization's vision.",
   
-      heroLearnMoreButton: "/learn-more-finance-mannage/1",
+      heroLearnMoreButton: "/learn-more-hr-features/1",
       heroLearnMoreButtonVisibility: "none",
   
       // Automate process----------------------------------------
-      automateProcessHeading: "Tax Calculation & Tracking",
+      automateProcessHeading: "Social Media Integration",
       automateProcessPara:
-        "Automate tax calculations and track tax liabilities accurately, eliminating manual errors and saving time.",
-      automateProcessButton: "/learn-more-finance-mannage/2",
+        "Integrate social media platforms with the career page, promoting job openings and reaching a wider audience of potential candidates.",
+      automateProcessButton: "/learn-more-hr-features/2",
       automateProcessButtonVisibility: "none",
       automateProcessItems: [
         {
           icon: `${CashControlIcon}`,
-          heading: "Tax Filing Assistance",
-          para: "Receive guidance and support in preparing and filing tax returns, ensuring compliance with tax regulations and deadlines.",
+          heading: "Mobile-Friendly Experience",
+          para: "Ensure the career page is optimized for mobile devices, providing a seamless and accessible application experience for candidates on-the-go.",
         },
         {
           icon: `${MoneyInfoIcon}`,
-          heading: "Tax Deductions and Credits",
-          para: `Organize and store tax-related documents securely, making tax audits and inquiries hassle-free.
-          Multi-Jurisdiction Support: Handle taxes for different jurisdictions and regions, ensuring compliance with specific tax laws and regulations.`,
+          heading: "Onboarding System",
+          para: "The Onboarding System in iReach HRMS simplifies and automates the employee onboarding process, ensuring a smooth transition for new hires and efficient management for HR teams. It facilitates the completion of necessary paperwork, orientation, and integration into the organization.",
         },
         {
           icon: `${MoneyMapingIcon}`,
-          heading: "Tax Remittance Tracking",
-          para: "Track tax payments and remittances, avoiding penalties and late fees for timely and accurate tax submissions.",
+          heading: "Document Management",
+          para: "Centralize and manage onboarding documents, such as contracts, policies, and forms, ensuring compliance and easy access.",
         },
       ],
   
       // contact us component------------------------------------------
-      contactUsHeading: "Tax Reporting and Analytics",
+      contactUsHeading: "Task and Checklist Management",
       contactUsPara:
-        "Generate comprehensive tax reports and gain insights into your tax obligations, aiding in financial planning and analysis.",
-      learnMoreContactUs: "/learn-more-finance-mannage/3",
+        "Create and assign tasks and checklists to guide new hires through the onboarding process, ensuring completion and tracking progress.",
+      learnMoreContactUs: "/learn-more-hr-features/3",
       learnMoreContactUsVisibility: "none",
   
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Compliance Monitoring",
-      featuresParaSectionOne:
-        "Stay updated with tax law changes and regulations, ensuring ongoing compliance and minimizing the risk of penalties.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-      readMoreFinanceFeaturesVisibility: "none",
-      featuresSectionTwo: [
+      // HR responsibilities component----------------------------------------------
+      hrResponsibilitiesHeading : "Employee Data Collection",
+      hrResponsibilitiesDiscription : "Gather and organize employee information, including personal details, emergency contacts, and tax forms, in a secure and structured manner.",
+      hrResponsibilitiesCards: [
         {
-          heading: "Integration with Tax Software",
-          para: "Comprehensively integrate with external tax software for well-defined data transfer and enhanced tax management capabilities.",
+          id: 1,
+          heading: "Training and Orientation",
+          para: "Provide new hires with access to training materials, orientation programs, and company policies to familiarize them with the organization.",
         },
         {
-          heading: "Audit Support",
-          para: "Facilitate tax audits by maintaining organized records, providing necessary documentation, and ensuring accuracy in tax filings.",
-        },
-      ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
-    },
-
-    // sub pages of the 1st sub page (General Ledger Management)------------------------------------------------------------------------------
-    {
-      id: 6,
-      heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Payroll Processing",
-      heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Payroll Processing",
-      heroParaWeb:
-        "Manage your employees' salaries and ensure accurate and timely payroll with Payroll Processing. Upgrade your payroll processes and eliminate manual calculations.",
-      heroParaMobile:
-        "Manage your employees' salaries and ensure accurate and timely payroll with Payroll Processing. ",
-  
-      heroLearnMoreButton: "/learn-more-finance-mannage/1",
-      heroLearnMoreButtonVisibility: "none",
-  
-      // Automate process----------------------------------------
-      automateProcessHeading: "Automated Payroll Calculations",
-      automateProcessPara:
-        "Automate payroll calculations based on employee hours, rates, and deductions, reducing errors and saving time.",
-      automateProcessButton: "/learn-more-finance-mannage/2",
-      automateProcessButtonVisibility: "none",
-      automateProcessItems: [
-        {
-          icon: `${CashControlIcon}`,
-          heading: "Direct Deposit",
-          para: "Facilitate direct deposit payments to employees' bank accounts, simplifying the payroll distribution process.",
+          id: 2,
+          heading: "Digital Signatures",
+          para: "Enable electronic signing of documents, eliminating the need for physical paperwork and expediting the onboarding process.",
         },
         {
-          icon: `${MoneyInfoIcon}`,
-          heading: "Payroll Scheduling",
-          para: "Set up recurring payroll schedules to ensure timely payment to employees, improving employee satisfaction.",
+          id:3,
+          heading: "Welcome Messages and Announcements",
+          para: "Send automated welcome messages and announcements to new hires, fostering a sense of belonging and engagement.",
         },
         {
-          icon: `${MoneyMapingIcon}`,
-          heading: "Deductions and Benefits Management",
-          para: "Manage employee deductions, benefits, and allowances, accurately reflecting them in payroll calculations.",
+          id:4,
+          heading: "Integration with HR Systems",
+          para: "Seamlessly integrate the onboarding system with other HR systems, such as payroll and performance management, ensuring a cohesive HR workflow.",
         },
       ],
-  
-      // contact us component------------------------------------------
-      contactUsHeading: "PTO & Leave Tracking",
-      contactUsPara:
-        "Track employee paid time off (PTO), leaves, and absences for accurate payroll calculation and leave management.",
-      learnMoreContactUs: "/learn-more-finance-mannage/3",
-      learnMoreContactUsVisibility: "none",
-  
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Payroll Reporting",
-      featuresParaSectionOne:
-        "Generate comprehensive payroll reports for record-keeping, auditing, and financial analysis purposes.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-      readMoreFinanceFeaturesVisibility: "none",
-      featuresSectionTwo: [
-        {
-          heading: "Tax Forms Preparation",
-          para: "Prepare and generate necessary tax forms, such as W-2s and 1099s, ensuring compliance with tax reporting requirements.",
-        },
-        {
-          heading: "Payroll Compliance",
-          para: "Stay updated with payroll regulations and laws, ensuring compliance with labor and wage regulations.",
-        },
-        {
-          heading: "Integration with Time & Attendance Systems",
-          para: "Systematically integrate with time and attendance systems to streamline payroll calculations based on employee attendance records.",
-        },
-      ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
-    },
-    {
-      id: 7,
-      heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Compliance & Regulatory Reporting",
-      heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Compliance & Regulatory Reporting",
-      heroParaWeb:
-        "Stay compliant and make more efficient the reporting processes. Get the details of compliance, mitigate risks, and ensure accurate regulatory reporting.",
-      heroParaMobile:
-        "Get the details of compliance, mitigate risks, and ensure accurate regulatory reporting.",
-  
-      heroLearnMoreButton: "/learn-more-finance-mannage/1",
-      heroLearnMoreButtonVisibility: "none",
-  
-      // Automate process----------------------------------------
-      automateProcessHeading: "Regulatory Reporting Templates",
-      automateProcessPara:
-        "Access pre-built templates for various regulatory reports, ensuring adherence to reporting requirements.",
-      automateProcessButton: "/learn-more-finance-mannage/2",
-      automateProcessButtonVisibility: "none",
-      automateProcessItems: [
-        {
-          icon: `${CashControlIcon}`,
-          heading: "Data Validation and Accuracy",
-          para: "Validate data for accuracy and completeness, reducing errors in regulatory reporting.",
-        },
-        {
-          icon: `${MoneyInfoIcon}`,
-          heading: "Compliance Monitoring and Alerts",
-          para: "Monitor compliance with regulatory requirements and receive alerts for any potential non-compliance issues.",
-        },
-        {
-          icon: `${MoneyMapingIcon}`,
-          heading: "Regulatory Filings and Submissions",
-          para: `Prepare and submit regulatory reports and filings in a timely and accurate manner.
-          Data Integration and Consolidation: Integrate data from various sources and consolidate information for seamless regulatory reporting.
-          `,
-        },
-      ],
-  
-      // contact us component------------------------------------------
-      contactUsHeading: "Record Keeping and Retention",
-      contactUsPara:
-        "Maintain organized records and ensure proper retention of regulatory documentation for compliance purposes.",
-      learnMoreContactUs: "/learn-more-finance-mannage/3",
-      learnMoreContactUsVisibility: "none",
-  
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Regulatory Change Management",
-      featuresParaSectionOne:
-        "Stay updated with regulatory changes and adapt reporting processes accordingly to ensure ongoing compliance.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-      readMoreFinanceFeaturesVisibility: "none",
-      featuresSectionTwo: [
-        {
-          heading: "Workflow Automation",
-          para: "Automate workflows for regulatory reporting, improving efficiency and reducing manual efforts.",
-        },
-        {
-          heading: "Collaboration and Approval Workflow",
-          para: "Facilitate collaboration and implement approval workflows for regulatory reporting processes.",
-        },
-        {
-          heading: "Fixed Assets Management",
-          para: "Efficiently track and manage your organization's fixed assets. Handle your asset management with ease, optimize depreciation, and enhance financial control.",
-        },
-      ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
-    },
-    {
-      id: 8,
-      heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Asset Tracking and Inventory",
-      heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Asset Tracking and Inventory",
-      heroParaWeb:
-        "Track and manage your organization's fixed assets, ensuring accurate records and preventing loss or misplacement.",
-      heroParaMobile:
-        "Track and manage your organization's fixed assets, ensuring accurate records and preventing loss or misplacement.",
-  
-      heroLearnMoreButton: "/learn-more-finance-mannage/1",
-      heroLearnMoreButtonVisibility: "none",
-  
-      // Automate process----------------------------------------
-      automateProcessHeading: "Depreciation Calculation",
-      automateProcessPara:
-        "Automate depreciation calculations based on predefined methods, simplifying financial reporting and compliance.",
-      automateProcessButton: "/learn-more-finance-mannage/2",
-      automateProcessButtonVisibility: "none",
-      automateProcessItems: [
-        {
-          icon: `${CashControlIcon}`,
-          heading: "Maintenance Scheduling and Tracking",
-          para: "Schedule and track asset maintenance activities to ensure optimal performance and prolong asset lifespan.",
-        },
-        {
-          icon: `${MoneyInfoIcon}`,
-          heading: "Asset Valuation and Appraisal",
-          para: "Evaluate and appraise the value of fixed assets periodically, providing accurate financial insights.",
-        },
-        {
-          icon: `${MoneyMapingIcon}`,
-          heading: "Asset Disposal and Retirement",
-          para: "Manage the disposal or retirement of fixed assets, adhering to regulatory and accounting requirements.",
-        },
-      ],
-  
-      // contact us component------------------------------------------
-      contactUsHeading: "Asset Categories and Classification",
-      contactUsPara:
-        "Maintain a comprehensive asset history and audit trail, enabling accurate asset tracking and accountability.",
-      learnMoreContactUs: "/learn-more-finance-mannage/3",
-      learnMoreContactUsVisibility: "none",
-  
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Asset Insurance and Warranty Tracking",
-      featuresParaSectionOne:
-        "Monitor insurance coverage and warranty details for fixed assets, ensuring proper risk management.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-      readMoreFinanceFeaturesVisibility: "none",
-      featuresSectionTwo: [
-        {
-          heading: "Lease Management",
-          para: "Track leased assets, monitor lease terms, and manage lease contracts, optimizing financial control.",
-        },
-        {
-          heading: "Budgeting & Forecasting",
-          para: "Effectively plan and analyze your organization's financial performance with Ondel's Budgeting & Forecasting feature. Contemporize your budget creation, monitor variances, and make informed decisions.",
-        },
-      ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
-    },
-    {
-      id: 9,
-      heroHeadingWebHomePageTitel: "",
-      heroHeadingWeb: "Dynamic Budget Creation",
-      heroHeadingMobilePageTitel: "",
-      heroHeadingMobile: "Dynamic Budget Creation",
-      heroParaWeb:
-        "Create comprehensive budgets based on historical data, projections, and business goals, ensuring accurate financial planning.",
-      heroParaMobile:
-        "Create comprehensive budgets based on historical data, projections, and business goals.",
-  
-      heroLearnMoreButton: "/learn-more-finance-mannage/1",
-      heroLearnMoreButtonVisibility: "none",
-  
-      // Automate process----------------------------------------
-      automateProcessHeading: "Forecasting and Predictive Analytics",
-      automateProcessPara:
-        "Utilize forecasting techniques and predictive analytics to project future financial performance and identify trends.",
-      automateProcessButton: "/learn-more-finance-mannage/2",
-      automateProcessButtonVisibility: "none",
-      automateProcessItems: [
-        {
-          icon: `${CashControlIcon}`,
-          heading: "Scenario Analysis",
-          para: `Conduct "what-if" scenarios to assess the impact of different financial variables and optimize budgeting strategies.`,
-        },
-        {
-          icon: `${MoneyInfoIcon}`,
-          heading: "Collaborative Budgeting",
-          para: "Facilitate collaboration among team members during the budgeting process, improving accuracy and stakeholder engagement.",
-        },
-        {
-          icon: `${MoneyMapingIcon}`,
-          heading: "Revenue Forecasting",
-          para: "Forecast revenue based on market trends, historical data, and sales projections, improving financial accuracy.",
-        },
-      ],
-  
-      // contact us component------------------------------------------
-      contactUsHeading: "Automated Reporting",
-      contactUsPara:
-        "Generate comprehensive budget reports and financial statements automatically, saving time and improving data accuracy.",
-      learnMoreContactUs: "/learn-more-finance-mannage/3",
-      learnMoreContactUsVisibility: "none",
-  
-      // features component----------------------------------------------
-      featuresHeadingSectionOne: "Budget Approval Workflow",
-      featuresParaSectionOne:
-        "Implement an approval workflow for budget submissions, ensuring accountability and adherence to financial guidelines.",
-      readMoreFinanceFeatures: "/learn-more-finance-mannage/4",
-      readMoreFinanceFeaturesVisibility: "none",
-      featuresSectionTwo: [
-        {
-          heading: "Tax Forms Preparation",
-          para: "Prepare and generate necessary tax forms, such as W-2s and 1099s, ensuring compliance with tax reporting requirements.",
-        },
-        {
-          heading: "Payroll Compliance",
-          para: "Stay updated with payroll regulations and laws, ensuring compliance with labor and wage regulations.",
-        },
-        {
-          heading: "Integration with Time & Attendance Systems",
-          para: "Systematically integrate with time and attendance systems to streamline payroll calculations based on employee attendance records.",
-        },
-      ],
-      readMoreMannagementFeatures: "/learn-more-finance-mannage/5",
-      readMoreMannagementFeaturesVisibility: "none",
+      learnMoreHrResponsibilities : "/learn-more-hr-features/4",
+      learnMoreHrResponsibilitiesVisibility : "none",
     },
   ],
 };

@@ -6,7 +6,6 @@ import MannagementGroupWorkingImgae from "./MannagementGroupWorkingImgae.png";
 import AiBookingIcon from "./AiBookingIcon.png";
 import AnimatedStatisticsMobileImage from "./AnimatedStatisticsMobileImage.png";
 import CalendexWorkingImage from "./CalendexWorkingImage.png";
-import MarkitingAnimatedPcImage from "./MarkitingAnimatedPcImage.png";
 import AiPowerAutomationIcon from "./AiPowerAutomationIcon.png";
 import FeaturesOrderTextArrowIcon from "./FeaturesOrderTextArrowIcon.png";
 import AiScheduler from "./AiScheduler.png";
@@ -15,6 +14,8 @@ import PlexaarFooterLogo from "./PlexaarFooterLogo.png";
 import MoneyMapingIcon from "./MoneyMapingIcon.png";
 import CashControlIcon from "./CashControlIcon.png";
 import MoneyInfoIcon from "./MoneyInfoIcon.png";
+import ContactUsAnimation from './ContactUsAnimation.png'
+import HrResponsibilitiesGirlImage from './HrResponsibilitiesGirlImage.png'
 export {
   PlexarLogo,
   UserAccountIcon,
@@ -24,7 +25,6 @@ export {
   AiBookingIcon,
   AnimatedStatisticsMobileImage,
   CalendexWorkingImage,
-  MarkitingAnimatedPcImage,
   AiPowerAutomationIcon,
   FeaturesOrderTextArrowIcon,
   AiScheduler,
@@ -33,4 +33,6 @@ export {
   MoneyMapingIcon,
   CashControlIcon,
   MoneyInfoIcon,
+  ContactUsAnimation,
+  HrResponsibilitiesGirlImage,
 };

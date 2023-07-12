@@ -7,7 +7,7 @@ const AutomateProcess = ({ pageData }) => {
   return (
     <div className={Style.componentArrangement}>
       <div className="container px-2">
-        <div className="d-flex flex-column flex-md-row">
+        <div className="d-flex flex-column flex-md-row mx-auto mx-md-0">
           {/* start first section----------------- */}
           <div className="col-md-6">
             <h1 className={Style.automateHeading}>
@@ -28,7 +28,7 @@ const AutomateProcess = ({ pageData }) => {
                 window.scrollTo(0, 0);
               }}
             >
-              <div className={Style.learnButtonButtonBox}>
+              <div className={Style.learnButtonBoxMannagement}>
                 <p className={Style.learnButtonCoustomText}>Learn More</p>
               </div>
             </Link>
@@ -36,7 +36,7 @@ const AutomateProcess = ({ pageData }) => {
           {/* end first section----------------- */}
 
           {/* start second section--------------------- */}
-          <div className="col-md-6">
+          <div className="col-md-6 mt-3 mt-md-0">
             {pageData.length > 0 &&
               pageData[0]?.automateProcessItems.map((mapedData) => (
                 <div className="d-flex flex-column flex-md-row gap-md-4 px-2 mb-3 mb-md-4">

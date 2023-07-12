@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Features from "../Features/Features";
 import ContactUs from "../ContactUs/ContactUs";
 import Hero from "../Hero/Hero";
 import { HomePageContent, defaultData } from "../../static/Content";
 import { useParams } from "react-router-dom";
 import AutomateProcess from "../AutomateProcess/AutomateProcess";
+import HrResponsibilities from "../HrResponsibilities/HrResponsibilities";
 
 
 const Home = () => {
@@ -35,9 +35,9 @@ const Home = () => {
          <ContactUs
       pageData={pageData}
       />
-      <Features
-        pageData={pageData}
-      />
+<HrResponsibilities
+ pageData={pageData}
+/>
     </div>
   );
 };
