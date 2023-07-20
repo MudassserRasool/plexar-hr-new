@@ -1,7 +1,7 @@
 .coustomBg {
   background-color: #c8c8c8;
   height: 737px;
-  clip-path: circle(185vh at 50% -80vh);
+  clip-path: circle(180vh at 50% -80vh);
 }
 @media only screen and (max-width: 767.98px) {
   /* For screens smaller than medium (up to 767.98px) */
@@ -92,7 +92,7 @@
 
 @media only screen and (max-width: 767.98px) {
   .heroParagraph {
-    width: 67%;
+    width: 64%;
     color: #fff;
     font-family: "Roboto";
     font-size: 14px;
@@ -105,7 +105,8 @@
 .heroWomanImageHomePage {
   width: auto;
   height: 697px;
-  margin-bottom: 30px;
+  /* margin-left: 16px; */
+  margin-top: -24px;
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -113,9 +114,9 @@
   .heroWomanImageHomePage {
     /* Add your desired margin for smaller screens here */
     /* overflow: hidden; */
-    margin-top: -161px;
-    margin-left: 132px;
-    width: 64%;
+    margin-top: -163px;
+    margin-left: 139px;
+    width: 62%;
     height: auto;
     /* transform: scaleX(-1); */
   }
@@ -132,6 +133,15 @@
   .buttonsRowHero {
     position: absolute;
     z-index: 2;
+  }
+}
+/* styles.css */
+@media (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+  .showOnMobile {
+    display: block;
   }
 }
 
