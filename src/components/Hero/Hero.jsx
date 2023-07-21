@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 // import { MyContext } from "../../context";
 
 const Hero = ({ pageData }) => { 
-  const isMobileScreen = window.innerWidth <= 768;
+  const isMobileScreen = window.innerWidth <= 767.98;
   return (
     <div className="coustomBg">
-      <div className="container-fluid container-md pt-4">
+      <div className=" container-md pt-4">
         <div className="row justify-content-between">
           {/* start hero left text--------------------- */}
           <div className=" pb-4 col-md-6 z-index-1">

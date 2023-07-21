@@ -3,7 +3,7 @@
 }
 @media only screen and (max-width: 767.98px) {
   .componentArrangement {
-    margin-top: 20px;
+    margin-top: 45px;
   }
 }
 
@@ -18,11 +18,11 @@
 @media only screen and (max-width: 767.98px) {
   .automateHeading {
     color: #333;
-    font-family: "Roboto";
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 60px;
+    font-family: 'Roboto';
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
   }
 }
 
@@ -33,7 +33,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
-  width: 456px;
+  width: 110%;
   margin-top: 34px;
 }
 @media only screen and (max-width: 767.98px) {
@@ -60,7 +60,7 @@
 
 @media only screen and (max-width: 767.98px) {
   .learnButtonBoxMannagement {
-    width: 345px !important;
+    width: auto !important;
     height: 40px !important;
     margin-top: 15px;
     border-radius: 4px;

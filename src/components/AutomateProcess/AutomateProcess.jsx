@@ -9,7 +9,7 @@ const AutomateProcess = ({ pageData }) => {
       <div className="container px-2">
         <div className="d-flex flex-column flex-md-row mx-auto mx-md-0">
           {/* start first section----------------- */}
-          <div className="col-md-6">
+          <div className="col-md-5">
             <h1 className={Style.automateHeading}>
               {pageData.length > 0 && pageData[0]?.automateProcessHeading}
             </h1>
@@ -36,7 +36,7 @@ const AutomateProcess = ({ pageData }) => {
           {/* end first section----------------- */}
 
           {/* start second section--------------------- */}
-          <div className="col-md-6 mt-3 mt-md-0">
+          <div className="col-md-5 ms-md-auto mt-3 mt-md-0">
             {pageData.length > 0 &&
               pageData[0]?.automateProcessItems.map((mapedData) => (
                 <div className="d-flex flex-column flex-md-row gap-md-4 px-2 mb-3 mb-md-4">

@@ -114,8 +114,9 @@
   .heroWomanImageHomePage {
     /* Add your desired margin for smaller screens here */
     /* overflow: hidden; */
-    margin-top: -163px;
-    margin-left: 139px;
+    margin-top: -49%;
+    margin-left: auto;
+    margin-right: -11.2px;
     width: 62%;
     height: auto;
     /* transform: scaleX(-1); */
@@ -150,7 +151,7 @@
 }
 @media only screen and (max-width: 767.98px) {
   .buttonsRowHero {
-    margin-top: 30px;
+    margin-top: screen;
   }
 }
 
@@ -162,8 +163,9 @@
 }
 @media only screen and (max-width: 767.98px) {
   .letsTalkButtonBox {
-    width: 122px;
+    width: 160px;
     height: 40px;
+    margin-left: 2%;
   }
 }
 
@@ -192,9 +194,11 @@
 }
 @media only screen and (max-width: 767.98px) {
   .learnButtonButtonBoxHero {
-    width: 122px;
+    width: 160px;
     height: 40px !important;
     padding-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -204,7 +208,7 @@
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  padding-top: 17px;
+  padding-top: 16px;
   color: white;
 }
 @media only screen and (max-width: 767.98px) {
